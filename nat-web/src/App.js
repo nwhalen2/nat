@@ -5,10 +5,7 @@ import Components from "./Components/Components.js";
 
 const App = () => {
   return (
-    <div>
-      hello from App.js
-      <Components />
-    </div>
+    <Components />
   );
 };
 
