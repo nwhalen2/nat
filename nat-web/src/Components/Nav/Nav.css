@@ -6,7 +6,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  cursor: url("../images/cursors/cursor-captain.png"), auto;
+  cursor: url("../../images/cursors/cursor-captain.png"), auto;
 }
 
 
@@ -26,7 +26,7 @@
   border: 10px double;
   padding: 10px;
   width: 5em;
-  cursor: url("../images/cursors/cursor-sailor.png"), pointer;
+  cursor: url("../../images/cursors/cursor-sailor.png"), pointer;
 }
 .tab :hover {
   color: black !important;
@@ -37,7 +37,7 @@
   border-color: #ffb457;
   /*background-color: #fed08a;*/
   color: #ffb457;
-  cursor: url("../images/cursors/cursor-haight-orange.png"), pointer;
+  cursor: url("../../images/cursors/cursor-haight-orange.png"), pointer;
 }
 #tab1 :hover {
   color: #ff96bd !important;
@@ -45,17 +45,17 @@
 #tab2 {
   border-color: #ff96bd;
   color: #ff96bd;
-  cursor: url("../images/cursors/cursor-haight-pink.png"), pointer;
+  cursor: url("../../images/cursors/cursor-haight-pink.png"), pointer;
 }
 #tab3 {
   border-color: #9999fb;
   color: #9999fb;
-  cursor: url("../images/cursors/cursor-haight-purple.png"), pointer;
+  cursor: url("../../images/cursors/cursor-haight-purple.png"), pointer;
 }
 #tab4 {
   border-color: #42c0ff;
   color: #42c0ff;
-  cursor: url("../images/cursors/cursor-haight-blue.png"), pointer;
+  cursor: url("../../images/cursors/cursor-haight-blue.png"), pointer;
 }
 
 @media (orientation: landscape) {

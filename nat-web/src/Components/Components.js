@@ -1,8 +1,8 @@
-import Home from "./Nav.js";
+import Nav from "./Nav/Nav.js";
 
 const Components = () => {
   return (
-    <Home />
+    <Nav />
   );
 };
 
