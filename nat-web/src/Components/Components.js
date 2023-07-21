@@ -1,11 +1,32 @@
-import Nav from "./Nav/Nav.js";
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate
+} from "react-router-dom";
+import Home from "./Home/Home.js";
 
 const Components = () => {
   return (
-    <Nav />
+    <Router>
+      <Routes>
+        <Route path="/me" element={<Home />} />
+        <Route path="*" element={<Navigate to="/me" replace />} />
+      </Routes>
+    </Router>
   );
 };
 
+
+/*
+ <Router>
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="*" element={<Navigate to="/home" replace />} />
+      </Routes>
+    </Router>
+    */
 /*
 import React from "react";
 import {

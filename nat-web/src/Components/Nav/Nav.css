@@ -1,9 +1,9 @@
 
-.home {
+.nav {
   z-index: 1;
   width: 100%;
   height: 100%;
-  position: fixed;
+  position: absolute fixed;
   top: 0;
   left: 0;
   cursor: url("../../images/cursors/cursor-captain.png"), auto;
@@ -14,19 +14,20 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
-  margin-top: 20px;
+  margin-top: 1em;
   font-size: 2em;
   width: 100%;
 }
 
 .tab {
-  border-top-left-radius: 50%;
+  border-top-left-radius: 40%;
   border-top-right-radius: 20%;
   text-align: center;
   border: 10px double;
   padding: 10px;
   width: 5em;
   cursor: url("../../images/cursors/cursor-sailor.png"), pointer;
+  background-color: white;
 }
 .tab :hover {
   color: black !important;

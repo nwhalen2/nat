@@ -1,0 +1,30 @@
+* {
+	background-color: #ffb457;
+	color: white;
+	text-align: center;
+}
+
+.description-box {
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	border: double 8px;
+}
+/*
+@media (orientation: landscape) {
+	.description-box {
+		display: flex;
+		flex-flow: row nowrap;
+		text-align: center;
+		width: 60%;
+	}
+	.description {
+		justify-content: center;
+	}
+  }
+*/
+
+#tab1 {
+	font-weight: bold;
+}
+
