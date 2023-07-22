@@ -6,12 +6,18 @@ import {
   Navigate
 } from "react-router-dom";
 import Home from "./Home/Home.js";
+import Projects from "./Projects/Projects.js";
+import Music from "./Music/Music.js";
+import Art from "./Art/Art.js";
 
 const Components = () => {
   return (
     <Router>
       <Routes>
         <Route path="/me" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/music" element={<Music />} />
+        <Route path="/art" element={<Art />} />
         <Route path="*" element={<Navigate to="/me" replace />} />
       </Routes>
     </Router>

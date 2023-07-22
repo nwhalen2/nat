@@ -17,6 +17,7 @@
   margin-top: 1em;
   font-size: 2em;
   width: 100%;
+  list-style: none;
 }
 
 .tab {
@@ -28,6 +29,7 @@
   width: 5em;
   cursor: url("../../images/cursors/cursor-sailor.png"), pointer;
   background-color: white;
+  text-decoration: none;
 }
 .tab :hover {
   color: black !important;
@@ -39,9 +41,6 @@
   /*background-color: #fed08a;*/
   color: #ffb457;
   cursor: url("../../images/cursors/cursor-haight-orange.png"), pointer;
-}
-#tab1 :hover {
-  color: #ff96bd !important;
 }
 #tab2 {
   border-color: #ff96bd;

@@ -3,13 +3,17 @@ import "./Home.css";
 
 const Home = () => {
     return (
-        <container>
+        <div>
             <Nav />
-            <h2> About Me</h2>
-            <div className="description-box">
-                <span className="description">natalie here !</span>
+            <div className="home">
+                <h2> About Me</h2>
+                <div className="description-box">
+                    <span className="description">my name is natalie whalen, & this is my personal website / portfolio / showcase.
+                    <br/> yo yo yo
+                    </span>
+                </div>
             </div>
-        </container>
+        </div>
     )
 }
 

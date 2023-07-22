@@ -1,8 +1,11 @@
-* {
-	background-color: #ffb457;
-	color: white;
+.home > * {
+	color: #ffb457;
 	text-align: center;
 }
+.home > * > *{
+	color: #ffb457;
+	text-align: center;
+} 
 
 .description-box {
 	margin: 10px;
@@ -23,8 +26,3 @@
 	}
   }
 */
-
-#tab1 {
-	font-weight: bold;
-}
-
