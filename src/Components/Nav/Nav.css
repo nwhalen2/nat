@@ -1,25 +1,22 @@
-
-.nav {
+nav {
   z-index: 1;
   width: 100%;
   height: 100%;
   position: absolute fixed;
   top: 0;
   left: 0;
-  cursor: url("../../images/cursors/cursor-captain.png"), auto;
+  text-decoration: none;
 }
-
 
 .tab-row {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: flex-start;
+  justify-content: flex-end;
   margin-top: 1em;
   font-size: 2em;
-  width: 100%;
   list-style: none;
+  text-decoration: none;
 }
-
 .tab {
   border-top-left-radius: 40%;
   border-top-right-radius: 20%;
@@ -27,7 +24,6 @@
   border: 10px double;
   padding: 10px;
   width: 5em;
-  cursor: url("../../images/cursors/cursor-sailor.png"), pointer;
   background-color: white;
   text-decoration: none;
 }
