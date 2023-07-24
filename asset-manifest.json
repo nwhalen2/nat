@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nat-web/static/css/main.05fa8233.css",
+    "main.js": "/nat-web/static/js/main.79db9a6e.js",
+    "static/js/787.e320baf3.chunk.js": "/nat-web/static/js/787.e320baf3.chunk.js",
+    "index.html": "/nat-web/index.html",
+    "main.05fa8233.css.map": "/nat-web/static/css/main.05fa8233.css.map",
+    "main.79db9a6e.js.map": "/nat-web/static/js/main.79db9a6e.js.map",
+    "787.e320baf3.chunk.js.map": "/nat-web/static/js/787.e320baf3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05fa8233.css",
+    "static/js/main.79db9a6e.js"
+  ]
+}
