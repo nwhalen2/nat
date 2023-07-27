@@ -6,3 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+.description-box {
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	border: double 8px;
+}

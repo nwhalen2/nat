@@ -38,6 +38,9 @@ nav {
   color: #ffb457;
   cursor: url("../../images/cursors/cursor-haight-orange.png"), pointer;
 }
+#tab1 :hover {
+  color: #b86500;
+}
 #tab2 {
   border-color: #ff96bd;
   color: #ff96bd;
@@ -63,5 +66,9 @@ nav {
 @media (orientation: portrait) {
   body {
     font-size: .5em;
+  }
+  nav {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }

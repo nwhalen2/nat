@@ -8,16 +8,16 @@ import {
 import Home from "./Home/Home.js";
 import Projects from "./Projects/Projects.js";
 import Music from "./Music/Music.js";
-import Art from "./Art/Art.js";
+import Comedy from "./Comedy/Comedy.js";
 
 const Components = () => {
   return (
     <Router>
       <Routes>
         <Route path="/nat" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/cs" element={<Projects />} />
         <Route path="/music" element={<Music />} />
-        <Route path="/art" element={<Art />} />
+        <Route path="/comedy" element={<Comedy />} />
         <Route path="*" element={<Navigate to="/nat" replace />} />
       </Routes>
     </Router>
