@@ -27,9 +27,6 @@ nav {
   background-color: white;
   text-decoration: none;
 }
-.tab :hover {
-  color: black !important;
-}
 
 
 #tab1 {
@@ -39,22 +36,31 @@ nav {
   cursor: url("../../images/cursors/cursor-haight-orange.png"), pointer;
 }
 #tab1 :hover {
-  color: #b86500;
+  color: #f88e0b;
 }
 #tab2 {
   border-color: #ff96bd;
   color: #ff96bd;
   cursor: url("../../images/cursors/cursor-haight-pink.png"), pointer;
 }
+#tab2 :hover {
+  color: #f85792;
+}
 #tab3 {
   border-color: #9999fb;
   color: #9999fb;
   cursor: url("../../images/cursors/cursor-haight-purple.png"), pointer;
 }
+#tab3 :hover {
+  color: #5f5fff;
+}
 #tab4 {
   border-color: #42c0ff;
   color: #42c0ff;
   cursor: url("../../images/cursors/cursor-haight-blue.png"), pointer;
+}
+#tab4 :hover {
+  color: #009ae7;
 }
 
 @media (orientation: landscape) {

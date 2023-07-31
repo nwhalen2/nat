@@ -1,0 +1,9 @@
+
+.resume {
+	color: #ff96bd;
+	text-align: center;
+}
+.resume > * {
+	color: #ff96bd;
+	text-align: center;
+} 

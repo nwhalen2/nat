@@ -6,7 +6,7 @@ import {
   Navigate
 } from "react-router-dom";
 import Home from "./Home/Home.js";
-import Projects from "./Projects/Projects.js";
+import Resume from "./Resume/Resume.js";
 import Music from "./Music/Music.js";
 import Comedy from "./Comedy/Comedy.js";
 
@@ -15,7 +15,7 @@ const Components = () => {
     <Router>
       <Routes>
         <Route path="/nat" element={<Home />} />
-        <Route path="/cs" element={<Projects />} />
+        <Route path="/cs" element={<Resume />} />
         <Route path="/music" element={<Music />} />
         <Route path="/comedy" element={<Comedy />} />
         <Route path="*" element={<Navigate to="/nat" replace />} />

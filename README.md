@@ -19,6 +19,12 @@ You may also see any lint errors in the console.
 Deploys app.\
 Open [https://nwhalen2.github.io/nat] to view it in your browser
 
+### font awesome
+
+npm i --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
