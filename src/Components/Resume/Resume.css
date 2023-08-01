@@ -7,15 +7,25 @@
 	color: white;
 	text-align: center;
 }
+.resume > h2 {
+	color: #f85792;
+	text-shadow: -.5px .5px 0 #fff,
+                          .5px .5px 0 #fff,
+                         .5px -.5px 0 #fff,
+                        -.5px -.5px 0 #fff;
+}
 .resume > * {
 	color: white;
 	text-align: center;
 } 
 
+#tab2 {
+	color: #f85792;
+}
 .box {
 	margin: 10px;
 	padding: 10px;
-	background-color: #ff96bc; 
+	background-color: #f45c94;
 	border: double 8px;
 }
 .last {
