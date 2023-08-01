@@ -1,7 +1,14 @@
+.comedyBody {
+	height: 100%;
+	width: 100%;
+	background-color: #59d5e8af;
+}
+
 .comedy {
-	color: #42c0ff;
+	color: white;
 	text-align: center;
 }
+
 /*
 #tab1 {
     font-weight: normal;

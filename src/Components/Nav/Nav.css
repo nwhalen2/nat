@@ -1,10 +1,5 @@
 nav {
-  z-index: 1;
-  width: 100%;
-  height: 100%;
   position: absolute fixed;
-  top: 0;
-  left: 0;
   text-decoration: none;
 }
 
@@ -12,7 +7,6 @@ nav {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
-  margin-top: 1em;
   font-size: 2em;
   list-style: none;
   text-decoration: none;
@@ -55,12 +49,12 @@ nav {
   color: #5f5fff;
 }
 #tab4 {
-  border-color: #42c0ff;
-  color: #42c0ff;
+  border-color: #59d5e8;
+  color: #59d5e8;
   cursor: url("../../images/cursors/cursor-haight-blue.png"), pointer;
 }
 #tab4 :hover {
-  color: #009ae7;
+  color: #00bca9;
 }
 
 @media (orientation: landscape) {

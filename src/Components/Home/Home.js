@@ -3,8 +3,12 @@ import "./Home.css";
 import "../../App.css";
 
 const Home = () => {
+    /*const myBackground = {
+        backgroundColor: "#ffb457"
+    }
+    inline style={myBackgound}*/
     return (
-        <div>
+        <div className="homeBody" >
             <Nav />
             <div className="home">
                 <h2>WORK IN PROGRESS</h2>

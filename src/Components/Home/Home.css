@@ -1,9 +1,16 @@
+.homeBody {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background-color: #ffb357b2;
+}
+
 .home > * {
-	color: #ffb457;
+	color: white;
 	text-align: center;
 }
-.home > * > *{
-	color: #ffb457;
+.home > * > * {
+	color: white;
 	text-align: center;
 } 
 

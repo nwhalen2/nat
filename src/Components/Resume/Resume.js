@@ -4,7 +4,7 @@ import Nav from "../Nav/Nav.js";
 
 const Resume = () => {
     return (
-        <div>
+        <div className="resumeBody">
             <Nav />
             <div className="resume">
                 <h2>WORK IN PROGRESS</h2>

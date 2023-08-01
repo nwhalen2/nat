@@ -4,7 +4,7 @@ import Nav from "../Nav/Nav.js";
 
 const Comedy = () => {
     return (
-        <div>
+        <div className="comedyBody">
             <Nav />
             <div className="comedy">
                 <h2>WORK IN PROGRESS</h2>

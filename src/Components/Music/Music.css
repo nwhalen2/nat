@@ -1,5 +1,11 @@
+.musicBody {
+	height: 100%;
+	width: 100%;
+	background-color: #9999fbb3;
+}
+
 .music {
-	color: #9999fb;
+	color: white;
 	text-align: center;
 }
 

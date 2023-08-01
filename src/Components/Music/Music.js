@@ -4,7 +4,7 @@ import "../../App.css";
 
 const Music = () => {
     return (
-        <div>
+        <div className="musicBody">
             <Nav />
             <div className="music">
                 <h2>WORK IN PROGRESS</h2>
