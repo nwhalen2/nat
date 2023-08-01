@@ -1,8 +1,14 @@
-.homeBody {
-	height: 100%;
-	width: 100%;
+.home-body {
 	margin: auto;
 	background-color: #ffb357dd;
+}
+
+.home-box {
+	background-color: #ffb357;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	border: double 8px;
 }
 
 .home > * {
