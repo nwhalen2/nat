@@ -12,3 +12,40 @@
 	color: white;
 	text-align: center;
 } 
+
+.box {
+	margin: 10px;
+	padding: 10px;
+	background-color: #ff96bc; 
+	border: double 8px;
+}
+
+.double-sided {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.title {
+	font-weight: bold;
+}
+.single-sided li {
+	list-style-type: square;
+}
+.single-sided {
+	text-align: left;
+}
+.single-sided > li > ul {
+	margin: 0;
+}
+hr {
+	height: 2px;
+	border-width: 0;
+	color: rgba(255, 255, 255, 0.497);
+	background-color: rgba(255, 255, 255, 0.497);
+}
+
+a {
+	color: rgb(232, 25, 173);
+	color: purple;
+	text-decoration: none;
+}
