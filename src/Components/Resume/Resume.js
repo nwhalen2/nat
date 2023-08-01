@@ -45,7 +45,6 @@ const Resume = () => {
                         <span>Frameworks</span>
                         <span>React&ensp;Vuetify&ensp;Angular</span>
                     </div>
-                    <hr/>
                     <div className="double-sided">
                         <span>Databases</span>
                         <span>SQL&ensp;Firebase&ensp;Back4App</span>
