@@ -1,5 +1,8 @@
 html, #root, body, .App {
 	height: 100%;
+}
+
+body {
 	background-image: url("./images/discoBackground3.avif.avif");
 	background-image: url("./images/discoBackground4.jpeg");
 }
