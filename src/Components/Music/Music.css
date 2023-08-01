@@ -7,6 +7,40 @@
 	color: white;
 	text-align: center;
 }
+.music > h2 {
+	color: #5f5fff;
+	text-shadow: -.5px .5px 0 #fff,
+                          .5px .5px 0 #fff,
+                         .5px -.5px 0 #fff,
+                        -.5px -.5px 0 #fff;
+}
+.music-slideshow-container {
+	margin: 20px;
+}
+
+.music-photo-container {
+	height: 300px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.music-photo {
+	height: 80%;
+	border-radius: 5%;
+}
+
+.music-box {
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	border: double 8px;
+}
+
+.shows {
+	display: flex; 
+}
 
 ul {
 	text-align: left;

@@ -10,6 +10,7 @@ nav {
   font-size: 2em;
   list-style: none;
   text-decoration: none;
+  margin-bottom: 25px;
 }
 .tab {
   border-top-left-radius: 40%;
