@@ -32,19 +32,22 @@ const Resume = () => {
                 <h2>TECHNICAL SKILLS</h2>
                 <div className="box">
                     <div className="double-sided">
-                        <b>Coding Languages</b>
+                        <span>Coding Languages</span>
                         <span>HTML&ensp;CSS&ensp;JavaScript&ensp;Node&ensp;Python&ensp;C&ensp;C++&ensp;Arduino&ensp;Java</span>
                     </div>
+                    <hr/>
                     <div className="double-sided">
-                        <b>Creative Platforms</b>
+                        <span>Creative Platforms</span>
                         <span>Adobe Audition&ensp;GarageBand&ensp;Maya&ensp;Houdini&ensp;DaVinci Resolve&ensp;Figma</span>
                     </div>
+                    <hr/>
                     <div className="double-sided">
-                        <b>Frameworks</b>
+                        <span>Frameworks</span>
                         <span>React&ensp;Vuetify&ensp;Angular</span>
                     </div>
+                    <hr/>
                     <div className="double-sided">
-                        <b>Databases</b>
+                        <span>Databases</span>
                         <span>SQL&ensp;Firebase&ensp;Back4App</span>
                     </div>
                 </div>

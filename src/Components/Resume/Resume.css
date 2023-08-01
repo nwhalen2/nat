@@ -1,7 +1,6 @@
 .resumeBody {
-	height: 100%;
-	width: 100%;
-	background-color: #ff96bcae;
+	background-color: #f45c94e0;
+	background-color: #ff96bce4;
 }
 
 .resume {
@@ -18,6 +17,10 @@
 	padding: 10px;
 	background-color: #ff96bc; 
 	border: double 8px;
+}
+.last {
+	padding-bottom: 20px;
+	margin-bottom: 10%;
 }
 
 .double-sided {
