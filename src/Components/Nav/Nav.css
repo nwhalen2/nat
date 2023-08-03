@@ -16,11 +16,21 @@ nav {
   border-top-left-radius: 40%;
   border-top-right-radius: 20%;
   text-align: center;
-  border: 10px double;
+  border:  10px double;
+  border-bottom:  10px solid;
   padding: 10px;
   width: 5em;
   background-color: white;
   text-decoration: none;
+}
+.tab :after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid black;
+  z-index: 1;
 }
 
 
