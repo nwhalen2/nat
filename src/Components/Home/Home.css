@@ -1,6 +1,7 @@
 .home-body {
 	background-color: #ffb357dd;
 	padding-top: 10px;
+	min-height: 100%;
 }
 
 .home-box {

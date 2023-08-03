@@ -1,6 +1,8 @@
 nav {
-  position: absolute fixed;
+  position: fixed absolute;
   text-decoration: none;
+  width: 100%;
+  margin-right: 10px;
 }
 
 .tab-row {
@@ -11,6 +13,7 @@ nav {
   list-style: none;
   text-decoration: none;
   margin-bottom: 25px;
+  margin-right: 5px;
 }
 .tab {
   border-top-left-radius: 40%;

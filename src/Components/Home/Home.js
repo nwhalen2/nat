@@ -16,7 +16,7 @@ const Home = () => {
                     <br/>
                     <img src={me} alt="none" style={{width:"40%"}}/>
                     <br/>
-                    <b>last updated: 1 August 2023</b>
+                    <b>last updated: 3 August 2023</b>
                 </div>
             </div>
         </div>

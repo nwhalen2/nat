@@ -1,6 +1,7 @@
 .musicBody {
 	padding-top: 10px;
-	background-color: #9999fbda;
+	background-color: #9999fbd3;
+	min-height: 100%;
 }
 
 .music {
