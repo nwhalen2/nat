@@ -52,7 +52,7 @@ const Resume = () => {
                     </div>
                 </div>
                 <h2>EMPLOYMENT</h2>
-                <div className="box last">
+                <div className="box">
                     <div className="double-sided">
                         <span><b>Juke</b></span>
                         <span>Nashville, TN (remote)</span>
@@ -62,9 +62,16 @@ const Resume = () => {
                         <span>Jan 2022 - August 2022</span>
                     </div>
                     <div className="single-sided">
-                        <li>Continued development of <a href="https://juke.band" target="_blank" rel="noopener noreferrer">juke.band</a> that allows audiences to request songs and tip performers at live shows</li>
-                        <li>Programmed in Vuetify, JavaScript, Node.js, HTML, CSS, SQL</li>
-                        <li>Promptly completed debugging, database, and design related tasks to constantly improve UI/UX</li>
+                        <li>Continued development of <a href="https://juke.band" target="_blank" rel="noopener noreferrer">juke.band</a> that allows audiences to request songs and tip performers at shows</li>
+                        <li>Code stack in Vuetify, JavaScript, Node.js, HTML/CSS, hosted on AWS Firebase</li>
+                        <li>Promptly completed debugging, database, and design related tasks to constantly improve UI/UX
+                        <ul>
+                            <li>Converted Figma design mockups to code</li>
+                            <li>Animated home button to indicate when shows are live</li>
+                            <li>Monitored gig success by timing a cronjob to deliver daily Slack messages revealing important statistics calculated through SQL statements</li>
+                            <li>Built a script to identify and eliminate all unused lines of CSS</li>
+                        </ul>
+                        </li>
                     </div>
                     <hr />
                     <div className="double-sided">
@@ -76,8 +83,8 @@ const Resume = () => {
                         <span>July 2022 - May 2023</span>
                     </div>
                     <div className="single-sided">
-                        <li>Lead student radio station by promoting shows, planning & hosting engagement events, and fostering student community</li>
-                        <li>Managed team of six board members under the oversight of Broadcast Media Coordinator, Peter Farrough</li>
+                        <li>Directed student radio by promoting shows, hosting engagement events, and fostering student community</li>
+                        <li>Managed team and expanded roles of six board members under the oversight of Broadcast Media Coordinator, Peter Farrough</li>
                         <li>Set and achieved semester and weekly goals, planned agenda for weekly meetings, and delegated to proper parties</li>
                     </div>
                     <div className="double-sided">
@@ -100,11 +107,11 @@ const Resume = () => {
                     </div>
                     <div className="single-sided">
                         <li>
-                            Head developer of Decision Sheet ReDesign Project
+                            Head Developer of Decision Sheet ReDesign Project
                             <ul>
-                                <li>Coordinated with team to holistically reinvent the decision process by visualizing a prospective student's application data for reviewers.</li>
+                                <li>Investigated ways to holistically reinvent the decision process by redesigning the visualization of a prospective student’s application data for reviewers</li>
                                 <li>Coded HTML, CSS, JavaScript webpage based on research evaluation in the design process</li>
-                                <li>Parsed student data in JSON</li>
+                                <li>Optimized codebase by parsing student data in JSON</li>
                             </ul>
                         </li>
                         <li>Read and critiqued research papers of graduate students</li>
@@ -118,7 +125,7 @@ const Resume = () => {
                     <div className="single-sided">
                         <li>Managed grading schedule for three other TAs in Dr. Shreya Kumar's Principles of Computing course</li>
                         <li>Graded in-class responses, comments, participation code, and homework assignments</li>
-                        <li>Hosted weekly office hours to help students understand basic computing in Python, JavaScript, HTML, and CSS</li>
+                        <li>Mentored students through weekly office hours to help elucidate basic computing in Python, JavaScript, HTML, and CSS</li>
                     </div>
                     <hr/>
                     <div className="double-sided">
@@ -130,11 +137,18 @@ const Resume = () => {
                         <span>Dec 2020 - Jan 2021</span>
                     </div>
                     <div className="single-sided">
-                        <li>Managed team of six interns on innovation team to collectively create an app for custom-sized gloves</li>
-                        <li>Helped code backend algorithm in Python to measure hand dimensions using photo from user</li>
-                        <li>Created a Progressive Web App UI using HTML, CSS, Angular, Amazon AWS</li>
+                        <li>Project managed team of six interns on innovation team to collectively create an app for custom-sized gloves</li>
+                        <li>Optimized image processing algorithm in Python to measure hand dimensions using photo from user</li>
+                        <li>Implemented a Progressive Web App UI using the Angular framework, hosted on an Amazon EC2 Instance</li>
                     </div>
                 </div>
+                <h2>INTERESTS</h2>
+                <div className="box last">
+                    <div className="single-sided">
+                        <span><a href="https://open.spotify.com/user/1251793928?si=822c654623e94d18" target="_blank" rel="noreferrer">Classic Rock</a>&ensp;&ensp;Sustainability&ensp;&ensp;Travel&ensp;&ensp;Camping&ensp;&ensp;Hiking&ensp;&ensp;Running&ensp;&ensp;Playing sports (with sub-par talent)&ensp;&ensp;Critically acclaimed movies&ensp;&ensp;Community events&ensp;&ensp;3-Buck Chuck&ensp;&ensp;Animals</span>
+                    </div>
+                </div>
+                <h2>&#128011;</h2>
             </div>
         </div>
     )
