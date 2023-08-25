@@ -74,19 +74,18 @@ const Music = () => {
                         ))} 
                     </Slide>
                 </div>
-                <div className="music-box">
-                    <span className="description">this page will display my music endeavors.</span>
-                    <ul>
-                        <li>
+                <h2>this page will display my music endeavors.</h2>
+                <div className="small-box">
+                    <br/>
+                        <li className="mus">
                             i sing & play the guitar at art shows & coffee shops
                         </li>
-                        <li>
-                            at notre dame, i hosted a weekly classic rock radio show through WSND-FM 88.9
+                        <li className="mus">
+                            at Notre Dame, i hosted a weekly Classic Rock radio show through <a href="https://wsnd.nd.edu">WSND-FM 88.9</a>
                         </li>
-                        <li>
+                        <li className="mus">
                             i also like to write/record music on my own
                         </li>
-                    </ul>
                 </div>
             </div>
         </div>

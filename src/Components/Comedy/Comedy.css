@@ -9,6 +9,16 @@
 	text-align: center;
 }
 
+.dog3photos {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+}
+img {
+    padding: 10px;
+}
+
 /*
 #tab1 {
     font-weight: normal;

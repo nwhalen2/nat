@@ -78,7 +78,7 @@ const Nav = () => {
             </li>
             <li>
                 <Link to="/comedy" className="tab" id="tab4">
-                  <FontAwesomeIcon icon="masks-theater" style={comedyIconColor}/>
+                  <FontAwesomeIcon icon="hippo" style={comedyIconColor}/>
                 </Link>
             </li>
         </ul>
