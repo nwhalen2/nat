@@ -28,6 +28,7 @@
 .music-photo {
 	height: 80%;
 	border-radius: 10%;
+	max-width: 80%;
 }
 
 .music-box {

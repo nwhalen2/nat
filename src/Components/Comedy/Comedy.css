@@ -19,6 +19,12 @@ img {
     padding: 10px;
 }
 
+@media (orientation: portrait) {
+    .dog3photos {
+        height: 160px;
+    }
+  }
+
 /*
 #tab1 {
     font-weight: normal;
