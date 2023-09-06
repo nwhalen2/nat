@@ -21,7 +21,7 @@ img {
 
 @media (orientation: portrait) {
     .dog3photos {
-        height: 160px;
+        max-height: 120px;
     }
   }
 

@@ -20,7 +20,7 @@
 }
 
 .music-photo-container {
-	height: 400px;
+	height: 300px;
 	background-color: #5f5fffa9;
 	border: double 8px;
 }
@@ -28,7 +28,7 @@
 .music-photo {
 	height: 80%;
 	border-radius: 10%;
-	max-width: 80%;
+	max-width: 90%;
 }
 
 .music-box {
