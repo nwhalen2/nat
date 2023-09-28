@@ -1,21 +1,19 @@
 .resumeBody {
-	padding-top: 10px;
-	background-color: #f45c94e0;
-	background-color: #ff96bce4;
 	min-height: 100%;
 }
 
 .resume {
+	background-color: #ff96bce4;
 	color: white;
 	text-align: center;
 	font-size: 1em;
 }
 .resume > h2 {
 	color: #f85792;
-	text-shadow: -.5px .5px 0 #fff,
-                          .5px .5px 0 #fff,
-                         .5px -.5px 0 #fff,
-                        -.5px -.5px 0 #fff;
+	text-shadow: -.7px .7px 0 #fff,
+                          .7px .7px 0 #fff,
+                         .7px -.7px 0 #fff,
+                        -.7px -.7px 0 #fff;
 }
 .resume > * {
 	color: white;
@@ -41,6 +39,12 @@
 	flex-direction: row;
 	justify-content: space-between;
 }
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
 .title {
 	font-weight: bold;
 }
@@ -62,6 +66,16 @@ hr {
 
 a {
 	color: rgb(232, 25, 173);
-	color: purple;
+	color: #069;
 	text-decoration: none;
+}
+
+.resume-link {
+	text-decoration: underline;
+}
+
+@media (orientation: portrait) {
+	.skills {
+		font-size: .8em;
+	}
 }

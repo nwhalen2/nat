@@ -62,7 +62,8 @@ const Music = () => {
         <div className="musicBody">
             <Nav />
             <div className="music">
-                <h2>LIVE MUSIC</h2>
+                <h3>-- UNDER CONSTRUCTION --</h3>
+                <h2>LIVE MUSIC & COMEDY</h2>
                 <div className="music-slideshow-container">
                     <Slide>
                         {musicImages.map((musicImage, index)=> (
@@ -81,12 +82,13 @@ const Music = () => {
                             i sing & play the guitar at art shows & coffee shops
                         </li>
                         <li className="mus">
-                            at Notre Dame, i hosted a weekly Classic Rock radio show through <a href="https://wsnd.nd.edu">WSND-FM 88.9</a>
+                            at Notre Dame, i hosted a weekly Classic Rock radio show through <a className="wsnd-link" href="https://wsnd.nd.edu">WSND-FM 88.9</a>
                         </li>
                         <li className="mus">
                             i also like to write/record music on my own
                         </li>
                 </div>
+                <h2>&#128011;</h2>
             </div>
         </div>
     )

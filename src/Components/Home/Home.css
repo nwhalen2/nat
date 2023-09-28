@@ -1,16 +1,48 @@
 .home-body {
-	background-color: #ffb357dd;
-	padding-top: 10px;
 	min-height: 100%;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.home {
+	background-color: #ffb357dd;
+	padding: 10px;
+}
+
+.home > h2 {
+	color: #f88e0b;
+	text-shadow: -.7px .7px 0 #fff,
+                          .7px .7px 0 #fff,
+                         .7px -.7px 0 #fff,
+                        -.7px -.7px 0 #fff;
+}
+.home > h2 {
+	color: #f88e0b;
+	text-shadow: -1px 1px 0 #fff,
+                          1px 1px 0 #fff,
+                         1px -1px 0 #fff,
+                        -1px -1px 0 #fff;
 }
 
 .home-box {
-	background-color: #ffb357;
+	background-color: #f88e0b;
 	margin: 10px;
 	padding: 10px;
-	text-align: center;
 	border: double 8px;
 }
+
+.other-links:link {
+	color: "#f88e0b";
+	margin: 40px;
+}
+
+.other-links:visited {
+	color: white;
+}
+
+.other-link {
+	height: 40px;
+}
+
 
 .home > * {
 	color: white;
@@ -18,7 +50,6 @@
 }
 .home > * > * {
 	color: white;
-	text-align: center;
 } 
 
 /*

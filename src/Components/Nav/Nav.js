@@ -64,21 +64,25 @@ const Nav = () => {
             <li>
                 <Link to="/nat" className="tab" id="tab1">
                   <FontAwesomeIcon icon="hand" style={natIconColor}/>
+                  <span className="long-nav">&nbsp;intro</span>
                 </Link>
             </li>
             <li>
                 <Link to="/cs" className="tab" id="tab2">
                   <FontAwesomeIcon icon="computer" style={csIconColor}/>
+                  <span className="long-nav" >&nbsp;resume</span>
                 </Link>
             </li>
             <li>
                 <Link to="/music" className="tab" id="tab3">
-                  <FontAwesomeIcon icon="music" style={musicIconColor}/>
+                  <FontAwesomeIcon icon="microphone" style={musicIconColor}/>
+                  <span className="long-nav">&nbsp;stage</span>
                 </Link>
             </li>
             <li>
                 <Link to="/comedy" className="tab" id="tab4">
                   <FontAwesomeIcon icon="hippo" style={comedyIconColor}/>
+                  <span className="long-nav">&nbsp;projects</span>
                 </Link>
             </li>
         </ul>

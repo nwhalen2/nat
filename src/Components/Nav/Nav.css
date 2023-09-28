@@ -2,7 +2,6 @@ nav {
   position: fixed absolute;
   text-decoration: none;
   width: 100%;
-  margin-right: 10px;
 }
 
 .tab-row {
@@ -12,30 +11,21 @@ nav {
   font-size: 2em;
   list-style: none;
   text-decoration: none;
-  margin-bottom: 25px;
-  margin-right: 5px;
 }
 .tab {
-  border-top-left-radius: 40%;
-  border-top-right-radius: 20%;
   text-align: center;
-  border:  10px double;
+  padding: 5px;
   border-bottom:  10px solid;
-  padding: 10px;
-  width: 5em;
-  background-color: white;
+  -webkit-clip-path: polygon(100% 0, 90% 0, 100% 100%, 0 100%, 0.5% 0);
+  clip-path: polygon(100% 0, 96% 0, 100% 100%, 0 100%, 0.5% 0);
+  padding-right: 10px;
+  background-color: rgba(255, 255, 255, 0.838);
   text-decoration: none;
 }
-.tab :after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  border-bottom: 1px solid black;
-  z-index: 1;
-}
 
+.long-nav {
+  font-size: .8em;
+}
 
 #tab1 {
   border-color: #ffb457;
@@ -76,3 +66,10 @@ nav {
     flex-direction: row;
   }
 }
+
+@media (orientation: portrait) {
+  .long-nav {
+    display: none;
+  }
+}
+

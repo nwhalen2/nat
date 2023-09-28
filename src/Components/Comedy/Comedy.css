@@ -1,10 +1,9 @@
 .comedyBody {
-	padding-top: 10px;
-	background-color: #59d5e8d5;
     min-height: 100%;
 }
 
 .comedy {
+    background-color: #59d5e8d5;
 	color: white;
 	text-align: center;
 }

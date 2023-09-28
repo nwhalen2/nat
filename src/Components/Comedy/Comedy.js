@@ -9,9 +9,9 @@ const Comedy = () => {
         <div className="comedyBody">
             <Nav />
             <div className="comedy">
-                <h2>COMEDY</h2>
+                <h3>-- UNDER CONSTRUCTION --</h3>
                 <div className="description-box">
-                    <span className="description"> here i will upload jokes & videos of me telling jokes at stand-up comedy performances</span>
+                    <span className="description"> here i will upload cool projects</span>
                 </div>
                 <h2>PROJECTS</h2>
                 <div className="description-box">
@@ -24,6 +24,7 @@ const Comedy = () => {
                     <span className="description">DOG3 had three moods: happy, sad, & angry</span>
                     <br/>
                 </div>
+                <h2>&#128011;</h2>
             </div>
         </div>
     )

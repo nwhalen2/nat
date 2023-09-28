@@ -1,5 +1,6 @@
 html, #root, body, .App {
 	height: 100%;
+	font-family: "Lucida Console", "Courier New", monospace;
 }
 
 body {

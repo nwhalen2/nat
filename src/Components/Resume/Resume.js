@@ -10,12 +10,12 @@ const Resume = () => {
                 <h2>EDUCATION</h2>
                 <div className="box">
                     <div className="double-sided">
-                        <span><b>University of Notre Dame</b></span>
-                        <span>Notre Dame, IN</span>
+                        <span className="left"><b>University of Notre Dame</b></span>
+                        <span className="right">Notre Dame, IN</span>
                     </div>
                     <div className="double-sided">
-                        <span>College of Engineering, Computer Science</span>
-                        <span>May 2023</span>
+                        <span className="left">College of Engineering, Computer Science</span>
+                        <span className="right">May 2023</span>
                     </div>
                     <div className="single-sided">
                         <span>3.87 GPA</span>
@@ -30,39 +30,39 @@ const Resume = () => {
                     </div>
                 </div>
                 <h2>TECHNICAL SKILLS</h2>
-                <div className="box">
+                <div className="box skills">
                     <div className="double-sided">
-                        <span>Coding Languages</span>
-                        <span>HTML&ensp;CSS&ensp;JavaScript&ensp;Node&ensp;Python&ensp;C&ensp;C++&ensp;Arduino&ensp;Java</span>
+                        <span className="left">Coding Languages</span>
+                        <span className="right">HTML&ensp;CSS&ensp;JavaScript&ensp;Node&ensp;Python&ensp;C&ensp;C++&ensp;Arduino&ensp;Java</span>
                     </div>
                     <hr/>
                     <div className="double-sided">
-                        <span>Creative Platforms</span>
+                        <span className="left">Creative Platforms</span>
                         <span>Adobe Audition&ensp;GarageBand&ensp;Maya&ensp;Houdini&ensp;DaVinci Resolve&ensp;Figma</span>
                     </div>
                     <hr/>
                     <div className="double-sided">
-                        <span>Frameworks</span>
-                        <span>React&ensp;Vuetify&ensp;Angular</span>
+                        <span className="left">Frameworks</span>
+                        <span className="right">React&ensp;Vuetify&ensp;Angular</span>
                     </div>
                     <hr />
                     <div className="double-sided">
-                        <span>Databases</span>
-                        <span>SQL&ensp;Firebase&ensp;Back4App</span>
+                        <span className="left">Databases</span>
+                        <span className="right">SQL&ensp;Firebase&ensp;Back4App</span>
                     </div>
                 </div>
                 <h2>EMPLOYMENT</h2>
                 <div className="box">
                     <div className="double-sided">
-                        <span><b>Juke</b></span>
-                        <span>Nashville, TN (remote)</span>
+                        <span className="left"><b>Juke</b></span>
+                        <span className="right">Nashville, TN (remote)</span>
                     </div>
                     <div className="double-sided">
-                        <span><i>Web Development Intern</i></span>
-                        <span>Jan 2022 - August 2022</span>
+                        <span className="left"><i>Full-Stack Developer</i></span>
+                        <span className="right">Jan 2022 - August 2022</span>
                     </div>
                     <div className="single-sided">
-                        <li>Continued development of <a href="https://juke.band" target="_blank" rel="noopener noreferrer">juke.band</a> that allows audiences to request songs and tip performers at shows</li>
+                        <li>Continued development of <a className="resume-link" href="https://juke.band" target="_blank" rel="noopener noreferrer">juke.band</a> that allows audiences to request songs and tip performers at shows</li>
                         <li>Code stack in Vuetify, JavaScript, Node.js, HTML/CSS, hosted on AWS Firebase</li>
                         <li>Promptly completed debugging, database, and design related tasks to constantly improve UI/UX
                         <ul>
@@ -75,12 +75,12 @@ const Resume = () => {
                     </div>
                     <hr />
                     <div className="double-sided">
-                        <span><b>The Sound of Notre Dame, </b><a href="https://wsnd.nd.edu" target="_blank" rel="noopener noreferrer">WSND FM 88.9</a></span>
-                        <span>Notre Dame, IN</span>
+                        <span className="left"><b>The Sound of Notre Dame, </b><a className="resume-link" href="https://wsnd.nd.edu" target="_blank" rel="noopener noreferrer">WSND FM 88.9</a></span>
+                        <span className="right">Notre Dame, IN</span>
                     </div>
                     <div className="double-sided">
-                        <span><i>Station Manager</i></span>
-                        <span>July 2022 - May 2023</span>
+                        <span className="left"><i>Station Manager</i></span>
+                        <span className="right">July 2022 - May 2023</span>
                     </div>
                     <div className="single-sided">
                         <li>Directed student radio by promoting shows, hosting engagement events, and fostering student community</li>
@@ -88,8 +88,8 @@ const Resume = () => {
                         <li>Set and achieved semester and weekly goals, planned agenda for weekly meetings, and delegated to proper parties</li>
                     </div>
                     <div className="double-sided">
-                        <span><i>Chief Announcer</i></span>
-                        <span>April 2020 - Dec 2021</span>
+                        <span className="left"><i>Chief Announcer</i></span>
+                        <span className="right">April 2020 - Dec 2021</span>
                     </div>
                     <div className="single-sided">
                         <li>Scheduled all shows to align best with station’s genre schedule and announcer preferences</li>
@@ -98,12 +98,12 @@ const Resume = () => {
                     </div>
                     <hr/>
                     <div className="double-sided">
-                        <span><b>University of Notre Dame</b></span>
-                        <span>Notre Dame, IN</span>
+                        <span className="left"><b>University of Notre Dame</b></span>
+                        <span className="right">Notre Dame, IN</span>
                     </div>
                     <div className="double-sided">
-                        <span><i>Research Assistant</i></span>
-                        <span>Feb 2021 - Jan 2023</span>
+                        <span className="left"><i>Research Assistant</i></span>
+                        <span className="right">Feb 2021 - Jan 2023</span>
                     </div>
                     <div className="single-sided">
                         <li>
@@ -119,8 +119,8 @@ const Resume = () => {
                         <li>Studied d3.js library in order to improve data visualizations for the GameRecapper project, which presents interactive visuals to writers in order to improve sports coverage</li>
                     </div>
                     <div className="double-sided">
-                        <span><i>Lead Teaching Assistant</i></span>
-                        <span>Fall 2021</span>
+                        <span className="left"><i>Lead Teaching Assistant</i></span>
+                        <span className="right">Fall 2021</span>
                     </div>
                     <div className="single-sided">
                         <li>Managed grading schedule for three other TAs in Dr. Shreya Kumar's Principles of Computing course</li>
@@ -129,12 +129,12 @@ const Resume = () => {
                     </div>
                     <hr/>
                     <div className="double-sided">
-                        <span><b>Marmon Group</b></span>
-                        <span>Chicago, IL (remote)</span>
+                        <span className="left"><b>Marmon Group</b></span>
+                        <span className="right">Chicago, IL (remote)</span>
                     </div>
                     <div className="double-sided">
-                        <span><i>Innovation Intern</i></span>
-                        <span>Dec 2020 - Jan 2021</span>
+                        <span className="left"><i>Innovation Intern</i></span>
+                        <span className="right">Dec 2020 - Jan 2021</span>
                     </div>
                     <div className="single-sided">
                         <li>Project managed team of six interns on innovation team to collectively create an app for custom-sized gloves</li>
@@ -145,7 +145,7 @@ const Resume = () => {
                 <h2>INTERESTS</h2>
                 <div className="box last">
                     <div className="single-sided">
-                        <span><a href="https://open.spotify.com/user/1251793928?si=822c654623e94d18" target="_blank" rel="noreferrer">Classic Rock</a>&ensp;&ensp;Sustainability&ensp;&ensp;Travel&ensp;&ensp;Camping&ensp;&ensp;Hiking&ensp;&ensp;Running&ensp;&ensp;Playing sports (with sub-par talent)&ensp;&ensp;Critically acclaimed movies&ensp;&ensp;Community events&ensp;&ensp;3-Buck Chuck&ensp;&ensp;Animals</span>
+                        <span><a className="resume-link" href="https://open.spotify.com/user/1251793928?si=822c654623e94d18" target="_blank" rel="noreferrer">Classic Rock</a>&ensp;&ensp;Sustainability&ensp;&ensp;Travel&ensp;&ensp;Camping&ensp;&ensp;Hiking&ensp;&ensp;Running&ensp;&ensp;Playing sports (with sub-par talent)&ensp;&ensp;Critically acclaimed movies&ensp;&ensp;Community events&ensp;&ensp;3-Buck Chuck&ensp;&ensp;Animals</span>
                     </div>
                 </div>
                 <h2>&#128011;</h2>

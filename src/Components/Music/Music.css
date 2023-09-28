@@ -1,10 +1,9 @@
 .musicBody {
-	padding-top: 10px;
-	background-color: #9999fbd3;
 	min-height: 100%;
 }
 
 .music {
+	background-color: #9999fbd3;
 	color: white;
 	text-align: center;
 }
@@ -60,4 +59,9 @@ li.mus {
 	margin: 5px;
 	padding: 2px;
 	background-color: #5f5fffa9;
+}
+
+.wsnd-link {
+	text-decoration: underline;
+	color: #59d5e8;
 }
