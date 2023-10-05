@@ -6,11 +6,17 @@
 	text-align: center;
     padding: 10px;
 }
+h1 {
+    color: black;
+    letter-spacing: 1px;
+    text-shadow: -1px 1px 0 #01b7d3,
+                          1px 1px 0 #01b7d3,
+                         1px -1px 0 #01b7d3,
+                        -1px -1px 0 #01b7d3;
+}
 h2 {
     color: #01b7d3;
-}
-h3 {
-    color: #01b7d3;
+    letter-spacing: 1px;
 }
 .comedy-box {
     background-color: #59d5e8;
@@ -22,7 +28,11 @@ h3 {
     height: 200px;
     justify-content: center;
 }
+
 img {
+    padding: 10px;
+}
+video {
     padding: 10px;
 }
 
