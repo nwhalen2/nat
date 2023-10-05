@@ -10,11 +10,11 @@ const Comedy = () => {
             <Nav />
             <div className="comedy">
                 <h3>-- UNDER CONSTRUCTION --</h3>
-                <div className="description-box">
+                <div className="description-box comedy-box">
                     <span className="description"> here i will upload cool projects</span>
                 </div>
                 <h2>PROJECTS</h2>
-                <div className="description-box">
+                <div className="description-box comedy-box">
                     <span className="description">Arduino Droid - <b>DOG3</b></span>
                     <br/>
                     <div className="dog3photos">

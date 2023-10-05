@@ -12,6 +12,7 @@ const Nav = () => {
     csDark: "#f85792",
     musicLight: "#9999fb",
     musicDark: "#5f5fff",
+    musicDark: "#7979fa",
     comedyLight: "#59d5e8",
     comedyDark: "#01b7d3"
   }
@@ -62,26 +63,26 @@ const Nav = () => {
       <nav>
         <ul className="tab-row">
             <li>
-                <Link to="/nat" className="tab" id="tab1">
-                  <FontAwesomeIcon icon="hand" style={natIconColor}/>
+                <Link to="/nat" className="tab" id="tab1" style={natIconColor}>
+                  <FontAwesomeIcon icon="hand"/>
                   <span className="long-nav">&nbsp;intro</span>
                 </Link>
             </li>
             <li>
-                <Link to="/cs" className="tab" id="tab2">
-                  <FontAwesomeIcon icon="computer" style={csIconColor}/>
+                <Link to="/cs" className="tab" id="tab2" style={csIconColor}>
+                  <FontAwesomeIcon icon="computer"/>
                   <span className="long-nav" >&nbsp;resume</span>
                 </Link>
             </li>
             <li>
-                <Link to="/music" className="tab" id="tab3">
-                  <FontAwesomeIcon icon="microphone" style={musicIconColor}/>
+                <Link to="/music" className="tab" id="tab3" style={musicIconColor}>
+                  <FontAwesomeIcon icon="microphone"/>
                   <span className="long-nav">&nbsp;stage</span>
                 </Link>
             </li>
             <li>
-                <Link to="/comedy" className="tab" id="tab4">
-                  <FontAwesomeIcon icon="hippo" style={comedyIconColor}/>
+                <Link to="/comedy" className="tab" id="tab4" style={comedyIconColor}>
+                  <FontAwesomeIcon icon="hippo" />
                   <span className="long-nav">&nbsp;projects</span>
                 </Link>
             </li>

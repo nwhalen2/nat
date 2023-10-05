@@ -3,16 +3,20 @@
 }
 
 .music {
-	background-color: #9999fbd3;
-	color: white;
 	text-align: center;
+	padding: 10px;
 }
 .music > h2 {
-	color: #5f5fff;
-	text-shadow: -.5px .5px 0 #fff,
-                          .5px .5px 0 #fff,
-                         .5px -.5px 0 #fff,
-                        -.5px -.5px 0 #fff;
+	color: #7979fa;
+	text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+	letter-spacing: 2px;
+}
+.music > h3 {
+	color: #9999fb;
+	color: #7979fa;
 }
 .music-slideshow-container {
 	margin: 10px;
@@ -21,7 +25,9 @@
 .music-photo-container {
 	height: 300px;
 	background-color: #5f5fffa9;
-	border: double 8px;
+	background-color: #9999fb;
+	border-top: double 8px;
+	border-bottom: double 8px;
 }
 
 .music-photo {
@@ -55,10 +61,10 @@ li.mus {
 	list-style-type: none;
 	border-color: white;
 	border: double 3px;
-	border-radius: 5%;
 	margin: 5px;
 	padding: 2px;
 	background-color: #5f5fffa9;
+	background-color: #9999fb;
 }
 
 .wsnd-link {

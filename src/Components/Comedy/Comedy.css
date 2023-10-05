@@ -3,9 +3,17 @@
 }
 
 .comedy {
-    background-color: #59d5e8d5;
-	color: white;
 	text-align: center;
+    padding: 10px;
+}
+h2 {
+    color: #01b7d3;
+}
+h3 {
+    color: #01b7d3;
+}
+.comedy-box {
+    background-color: #59d5e8;
 }
 
 .dog3photos {

@@ -9,7 +9,7 @@ library.add(fab, faComputer, faMusic, faMasksTheater, faHand, faHippo, faGuitar,
 
 const App = () => {
   return (
-    <Components />
+    <Components/>
   );
 };
 
