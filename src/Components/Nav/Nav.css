@@ -31,28 +31,28 @@ nav {
 #tab1 {
   border-color: #ffb357;
   /*background-color: #fed08a;*/
-  cursor: url("../../images/cursors/cursor-haight-orange.png"), pointer;
+  cursor: url("../../media/cursors/cursor-haight-orange.png"), pointer;
 }
 #tab1 :hover {
   color: #f88e0b;
 }
 #tab2 {
   border-color: #ff96bd;
-  cursor: url("../../images/cursors/cursor-haight-pink.png"), pointer;
+  cursor: url("../../media/cursors/cursor-haight-pink.png"), pointer;
 }
 #tab2 :hover {
   color: #f85792;
 }
 #tab3 {
   border-color: #9999fb;
-  cursor: url("../../images/cursors/cursor-haight-purple.png"), pointer;
+  cursor: url("../../media/cursors/cursor-haight-purple.png"), pointer;
 }
 #tab3 :hover {
   color: #7979fa;
 }
 #tab4 {
   border-color: #59d5e8;
-  cursor: url("../../images/cursors/cursor-haight-blue.png"), pointer;
+  cursor: url("../../media/cursors/cursor-haight-blue.png"), pointer;
 }
 #tab4 :hover {
   color: #01b7d3;

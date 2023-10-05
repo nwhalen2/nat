@@ -13,9 +13,6 @@ const Comedy = () => {
             <Nav />
             <div className="comedy">
                 <h1>TECHNICAL & CREATIVE ACCOMPLISHMENTS</h1>
-                <div className="description-box comedy-box">
-                    <span className="description"> here i will upload cool projects</span>
-                </div>
                 <h2>EMBEDDED SYSTEMS</h2>
                 <div className="description-box comedy-box">
                     <div className="description">Arduino Droid - <b>DOG3</b></div>
@@ -28,20 +25,20 @@ const Comedy = () => {
                 <h2>VISUAL EFFECTS</h2>
                 <div className="description-box comedy-box">
                     <div className="description">Green Screen - <b>DREAMING</b></div>
-                    <video width="60%" controls="controls">
+                    <video controls="controls">
                         <source src={flying} type="video/mp4"></source>
                     </video>
                 </div>
                 <div className="description-box comedy-box">
                     <div className="description">Maya Compilation - <b>PORTFOLIO</b></div>
-                    <video width="60%" controls="controls">
+                    <video controls="controls">
                         <source src={maya} type="video/mp4"></source>
                     </video>
                 </div>
                 <h2>AUDIO DESIGN</h2>
                 <div className="description-box comedy-box">
                     <div className="description">Scene Strip & Overlay - <b>HUNGER GAMES</b></div>
-                    <video width="60%" controls="controls">
+                    <video controls="controls">
                         <source src={hungerGames} type="video/mp4"></source>
                     </video>
                 </div>

@@ -11,7 +11,6 @@ const Nav = () => {
     csLight: "#ff96bd",
     csDark: "#f85792",
     musicLight: "#9999fb",
-    musicDark: "#5f5fff",
     musicDark: "#7979fa",
     comedyLight: "#59d5e8",
     comedyDark: "#01b7d3"

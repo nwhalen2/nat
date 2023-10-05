@@ -37,6 +37,9 @@
 .social-links:visited {
 	color: #f88e0b;
 }
+.social-links:hover {
+	color: black;
+}
 
 .social-link {
 	height: 40px;

@@ -1,34 +1,14 @@
 import "./Music.css";
 import Nav from "./../Nav/Nav.js";
 import "../../App.css";
-import dole from "../../images/dole.jpeg";
-import dole2 from "../../images/dole2.png";
-import avant from "../../images/avant.jpg";
-import avant2 from "../../images/avant2.png";
-import dancers from "../../images/dancers.jpg";
-import acousticafe from "../../images/acousticafe.jpg";
+import dole from "../../media/dole.jpeg";
+import dole2 from "../../media/dole2.png";
+import avant from "../../media/avant.jpg";
+import avant2 from "../../media/avant2.png";
+import dancers from "../../media/dancers.jpg";
+import acousticafe from "../../media/acousticafe.jpg";
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-/*
-const musicImages = [
-    {
-        url: "../../images/dole.jpeg",
-        caption: "4th Fridays at the Dole"
-    },
-    {
-        url: "../../images/avant.jpg",
-        caption: "Avant Cycle Cafe"
-    },
-    {
-        url: "../../images/dancers.jpg",
-        caption: "4th Fridays at Starline Gallery"
-    },
-    {
-        url: "../../images/acousticafe.jpg",
-        caption: "Acousticafe at Notre Dame"
-    }
-
-]*/
 
 const musicImages = [
     {
