@@ -8,7 +8,7 @@ import {
 import Home from "./Home/Home.js";
 import Resume from "./Resume/Resume.js";
 import Music from "./Music/Music.js";
-import Comedy from "./Comedy/Comedy.js";
+import Projects from "./Projects/Projects.js";
 
 const Components = () => {
   return (
@@ -17,7 +17,7 @@ const Components = () => {
         <Route path="/nat" element={<Home />} />
         <Route path="/cs" element={<Resume />} />
         <Route path="/music" element={<Music />} />
-        <Route path="/comedy" element={<Comedy />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="*" element={<Navigate to="/nat" replace />} />
       </Routes>
     </Router>

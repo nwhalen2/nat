@@ -6,7 +6,7 @@
 	text-align: center;
     padding: 10px;
 }
-h1 {
+.comedy > h1 {
     color: black;
     letter-spacing: 1px;
     text-shadow: -1px 1px 0 #01b7d3,
@@ -29,11 +29,17 @@ h2 {
     justify-content: center;
 }
 
-img {
+.dog3photos > img {
     padding: 10px;
 }
-video {
-    width: 45%;
+
+.droid-list {
+    text-align: left;
+}
+
+
+.project-video {
+    width: 75%;
     padding: 10px;
 }
 

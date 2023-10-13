@@ -1,0 +1,9 @@
+{
+    "droid-description-1": " and I built an autonomous droid this spring, with its worldly purpose aligning with that of a dog in a doghouse. Hence, we named it DOG3. By combining principles of Embedded Systems and Circuit Design at the intersection of hardware and software, we built DOG3 with the following attributes, all commanded or triggered by a PS3Controller:",
+    "droid-description-list-1": "DOG3 was able to move in any direction at any speed (within a range of 0 to about 2.5mph).",
+    "droid-description-list-2": "Directed by a microchip containing a library of custom sound files, DOG3 could be heard from five rooms over (we had some awkward moments during testing, as people aren’t always used to hearing loud barking in academic buildings).",
+    "droid-description-list-3": "With sensors on the droid’s front, rear, and side, DOG3 was able to autonomously navigate through a course, both forward and backward, with a wall as a guide and a tape line to monitor accuracy.",
+    "droid-description-list-4": "Peaking out from the doghouse, we 3D printed a two piece servo gear on the back of a dog model, so that DOG3 could wag its tail!",
+    "droid-description-list-5": "DOG3 showed emotion via LEDs strategically placed by color code and position in a custom 3D print to display the droid’s “emotion” depending on which of three states it was in. The LEDs could also flash at different speeds and patterns.",
+    "droid-description-2": "DOG3 had three moods: happy, sad, and angry. When happy, DOG3 would shine a dashing (and flashing) smile, wag its tail, and either play with its toys or dance to songs like “Who Let The Dogs Out” by Baha Men. When sad, DOG3 would pout with a frown, slowly fading in and out, while it moved sheepishly backward. When angry, DOG3 would bark viciously with a nasty furrowed brow, ready to attack."
+}

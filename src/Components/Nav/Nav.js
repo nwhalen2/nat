@@ -11,9 +11,9 @@ const Nav = () => {
     csLight: "#ff96bd",
     csDark: "#f85792",
     musicLight: "#9999fb",
-    musicDark: "#5f5fff",
-    comedyLight: "#59d5e8",
-    comedyDark: "#01b7d3"
+    musicDark: "#7979fa",
+    projLight: "#59d5e8",
+    projDark: "#01b7d3"
   }
   let natIconColor = {
     color: iconColors.natDark
@@ -24,8 +24,8 @@ const Nav = () => {
   let musicIconColor = {
     color: iconColors.musicLight
   };
-  let comedyIconColor = {
-    color: iconColors.comedyLight
+  let projIconColor = {
+    color: iconColors.projLight
   };
 
   // determine which icon should be highlighted
@@ -35,26 +35,26 @@ const Nav = () => {
       natIconColor.color = iconColors.natLight;
       csIconColor.color = iconColors.csDark;
       musicIconColor.color = iconColors.musicLight;
-      comedyIconColor.color = iconColors.comedyLight;
+      projIconColor.color = iconColors.projLight;
       break;
     case "/music":
       natIconColor.color = iconColors.natLight;
       csIconColor.color = iconColors.csLight;
       musicIconColor.color = iconColors.musicDark;
-      comedyIconColor.color = iconColors.comedyLight;
+      projIconColor.color = iconColors.projLight;
       break;
-    case "/comedy":
+    case "/projects":
       natIconColor.color = iconColors.natLight;
       csIconColor.color = iconColors.csLight;
       musicIconColor.color = iconColors.musicLight;
-      comedyIconColor.color = iconColors.comedyDark;
+      projIconColor.color = iconColors.projDark;
       break;
     default:
       // default * or /nat
       natIconColor.color = iconColors.natDark;
       csIconColor.color = iconColors.csLight;
       musicIconColor.color = iconColors.musicLight;
-      comedyIconColor.color = iconColors.comedyLight;
+      projIconColor.color = iconColors.projLight;
   }
 
   return (
@@ -62,26 +62,26 @@ const Nav = () => {
       <nav>
         <ul className="tab-row">
             <li>
-                <Link to="/nat" className="tab" id="tab1">
-                  <FontAwesomeIcon icon="hand" style={natIconColor}/>
+                <Link to="/nat" className="tab" id="tab1" style={natIconColor}>
+                  <FontAwesomeIcon icon="hand"/>
                   <span className="long-nav">&nbsp;intro</span>
                 </Link>
             </li>
             <li>
-                <Link to="/cs" className="tab" id="tab2">
-                  <FontAwesomeIcon icon="computer" style={csIconColor}/>
+                <Link to="/cs" className="tab" id="tab2" style={csIconColor}>
+                  <FontAwesomeIcon icon="computer"/>
                   <span className="long-nav" >&nbsp;resume</span>
                 </Link>
             </li>
             <li>
-                <Link to="/music" className="tab" id="tab3">
-                  <FontAwesomeIcon icon="microphone" style={musicIconColor}/>
+                <Link to="/music" className="tab" id="tab3" style={musicIconColor}>
+                  <FontAwesomeIcon icon="microphone"/>
                   <span className="long-nav">&nbsp;stage</span>
                 </Link>
             </li>
             <li>
-                <Link to="/comedy" className="tab" id="tab4">
-                  <FontAwesomeIcon icon="hippo" style={comedyIconColor}/>
+                <Link to="/projects" className="tab" id="tab4" style={projIconColor}>
+                  <FontAwesomeIcon icon="hippo" />
                   <span className="long-nav">&nbsp;projects</span>
                 </Link>
             </li>
