@@ -12,8 +12,8 @@ const Nav = () => {
     csDark: "#f85792",
     musicLight: "#9999fb",
     musicDark: "#7979fa",
-    comedyLight: "#59d5e8",
-    comedyDark: "#01b7d3"
+    projLight: "#59d5e8",
+    projDark: "#01b7d3"
   }
   let natIconColor = {
     color: iconColors.natDark
@@ -24,8 +24,8 @@ const Nav = () => {
   let musicIconColor = {
     color: iconColors.musicLight
   };
-  let comedyIconColor = {
-    color: iconColors.comedyLight
+  let projIconColor = {
+    color: iconColors.projLight
   };
 
   // determine which icon should be highlighted
@@ -35,26 +35,26 @@ const Nav = () => {
       natIconColor.color = iconColors.natLight;
       csIconColor.color = iconColors.csDark;
       musicIconColor.color = iconColors.musicLight;
-      comedyIconColor.color = iconColors.comedyLight;
+      projIconColor.color = iconColors.projLight;
       break;
     case "/music":
       natIconColor.color = iconColors.natLight;
       csIconColor.color = iconColors.csLight;
       musicIconColor.color = iconColors.musicDark;
-      comedyIconColor.color = iconColors.comedyLight;
+      projIconColor.color = iconColors.projLight;
       break;
-    case "/comedy":
+    case "/projects":
       natIconColor.color = iconColors.natLight;
       csIconColor.color = iconColors.csLight;
       musicIconColor.color = iconColors.musicLight;
-      comedyIconColor.color = iconColors.comedyDark;
+      projIconColor.color = iconColors.projDark;
       break;
     default:
       // default * or /nat
       natIconColor.color = iconColors.natDark;
       csIconColor.color = iconColors.csLight;
       musicIconColor.color = iconColors.musicLight;
-      comedyIconColor.color = iconColors.comedyLight;
+      projIconColor.color = iconColors.projLight;
   }
 
   return (
@@ -80,7 +80,7 @@ const Nav = () => {
                 </Link>
             </li>
             <li>
-                <Link to="/comedy" className="tab" id="tab4" style={comedyIconColor}>
+                <Link to="/projects" className="tab" id="tab4" style={projIconColor}>
                   <FontAwesomeIcon icon="hippo" />
                   <span className="long-nav">&nbsp;projects</span>
                 </Link>
