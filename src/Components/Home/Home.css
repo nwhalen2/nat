@@ -53,16 +53,9 @@
 	width: 40%;
 }
 
-/*
-@media (orientation: landscape) {
-	.description-box {
-		display: flex;
-		flex-flow: row nowrap;
-		text-align: center;
-		width: 60%;
-	}
-	.description {
-		justify-content: center;
+
+@media (orientation: portrait) {
+	.home {
+		font-size: .7em;
 	}
   }
-*/

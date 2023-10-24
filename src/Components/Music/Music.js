@@ -49,6 +49,9 @@ const arrows = {
     //nextArrow: <button style={{ ...buttonStyle }}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M512 256L270 42.6v138.2H0v150.6h270v138z"/></svg></button>
     prevArrow: <FontAwesomeIcon className="arrow" icon="chevron-left"></FontAwesomeIcon>,
     nextArrow: <FontAwesomeIcon className="arrow" icon="chevron-right"></FontAwesomeIcon>,
+
+   //prevArrow: <span>&#x2190;</span>,
+    //nextArrow: <span>&#x2192;</span>
 }
 
 

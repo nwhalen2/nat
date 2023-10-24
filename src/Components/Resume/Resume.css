@@ -83,7 +83,7 @@ a {
 }
 
 @media (orientation: portrait) {
-	.skills {
-		font-size: .8em;
+	.resume {
+		font-size: .7em;
 	}
 }

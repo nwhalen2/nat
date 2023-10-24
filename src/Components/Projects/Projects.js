@@ -5,6 +5,8 @@ import dog3selfie from "../../media/projects/DOG3_selfie.jpeg";
 import dog3work from "../../media/projects/DOG3_work.jpeg";
 import flying from "../../media/projects/flying.mp4";
 import maya from "../../media/projects/Final_Portfolio.mp4";
+import dogs from "../../media/projects/dogs.mp4";
+import spaceship from "../../media/projects/spaceship.mp4";
 import hungerGames from "../../media/projects/HUNGER_STEREO-MIX.mp4";
 import descriptions from "./Projects.json";
 
@@ -43,11 +45,29 @@ const Comedy = () => {
                     <video controls="controls" className="project-video">
                         <source src={flying} type="video/mp4"></source>
                     </video>
+                    <div>
+                        Using a green screen and <b>DaVinci Resolve, </b>
+                        {descriptions['gs-description-1']}
+                    </div>
                 </div>
                 <div className="description-box comedy-box">
-                    <div className="description">Maya Compilation - <b>PORTFOLIO</b></div>
+                    <div className="description">Modeling & Animation - <b>PORTFOLIO</b></div>
                     <video controls="controls" className="project-video">
                         <source src={maya} type="video/mp4"></source>
+                    </video>
+                    <div>
+                        Using <b>Autodesk Maya</b> and <b>Houdini</b>, 
+                        {descriptions["vfx-description-1"]}
+                        <b>{descriptions["vfx-description-2"]}</b>
+                        {descriptions["vfx-description-3"]}
+                        <b>DaVinci Resolve </b>
+                        {descriptions["vfx-description-4"]}
+                    </div>
+                    <video controls="controls" className="project-video">
+                        <source src={dogs} type="video/mp4"></source>
+                    </video>
+                    <video controls="controls" className="project-video">
+                        <source src={spaceship} type="video/mp4"></source>
                     </video>
                 </div>
                 <h2>AUDIO DESIGN</h2>
@@ -56,6 +76,23 @@ const Comedy = () => {
                     <video controls="controls" className="project-video">
                         <source src={hungerGames} type="video/mp4"></source>
                     </video>
+                    <div className="description">
+                        <div>
+                            {descriptions["audio-description-1"]}
+                            <b>{descriptions["audio-description-2"]}</b>
+                            {descriptions["audio-description-3"]}
+                        </div>
+                        <ul className="droid-list">
+                            <li><b>{descriptions["audio-list-title-1"]}: </b>{descriptions["audio-list-1"]}</li>
+                            <li><b>{descriptions["audio-list-title-2"]}: </b>{descriptions["audio-list-2"]}</li>
+                            <li><b>{descriptions["audio-list-title-3"]}: </b>{descriptions["audio-list-3"]}</li>
+                            <li><b>{descriptions["audio-list-title-4"]}: </b>{descriptions["audio-list-4"]}</li>
+                            <li><b>{descriptions["audio-list-title-5"]}: </b>{descriptions["audio-list-5"]}</li>
+                        </ul>
+                        <div>
+                            {descriptions["audio-description-4"]}
+                        </div>
+                    </div>
                 </div>
                 <h2>&#128011;</h2>
             </div>

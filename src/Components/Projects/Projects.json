@@ -5,5 +5,27 @@
     "droid-description-list-3": "With sensors on the droid’s front, rear, and side, DOG3 was able to autonomously navigate through a course, both forward and backward, with a wall as a guide and a tape line to monitor accuracy.",
     "droid-description-list-4": "Peaking out from the doghouse, we 3D printed a two piece servo gear on the back of a dog model, so that DOG3 could wag its tail!",
     "droid-description-list-5": "DOG3 showed emotion via LEDs strategically placed by color code and position in a custom 3D print to display the droid’s “emotion” depending on which of three states it was in. The LEDs could also flash at different speeds and patterns.",
-    "droid-description-2": "DOG3 had three moods: happy, sad, and angry. When happy, DOG3 would shine a dashing (and flashing) smile, wag its tail, and either play with its toys or dance to songs like “Who Let The Dogs Out” by Baha Men. When sad, DOG3 would pout with a frown, slowly fading in and out, while it moved sheepishly backward. When angry, DOG3 would bark viciously with a nasty furrowed brow, ready to attack."
+    "droid-description-2": "DOG3 had three moods: happy, sad, and angry. When happy, DOG3 would shine a dashing (and flashing) smile, wag its tail, and either play with its toys or dance to songs like “Who Let The Dogs Out” by Baha Men. When sad, DOG3 would pout with a frown, slowly fading in and out, while it moved sheepishly backward. When angry, DOG3 would bark viciously with a nasty furrowed brow, ready to attack.",
+    
+    "gs-description-1": "I starred in and edited this silly video of me flying around the world to fun places. Listen to my friend Tom chuckle in the background (best hype man ever).",
+
+    "vfx-description-1": " I learned an incredible amount about ",
+    "vfx-description-2": "modeling, rigging, and many different types of animation. ",
+    "vfx-description-3": "After caching and rendering scenes, I deployed my projects to ",
+    "vfx-description-4": "in order to convert the stills to video format. Two final scenes are shown below.",
+   
+    "audio-description-1": "After a few listens to the original audio, I stripped all of the audio from the 'Tracker Jacker' scene in ",
+    "audio-description-2": "The Hunger Games. ", 
+    "audio-description-3": "I then added multiple layers in an attempt to recreate the sounds conveying the actions and emotions of the subjects and surrounding objects.",
+    "audio-list-title-1": "SOUND EFFECT LIBRARIES",
+    "audio-list-1": "For noises like the tracker jacker buzzing, human screaming, and blaring echoes, I used available sound effect libraries. There were limited screams I could use :/",
+    "audio-list-title-2": "ME & THE MIC",
+    "audio-list-2": "In the scene, the only dialogue present is Katniss’ heavy breathing as she frantically scrambles to send the tracker jackers to those below. I recorded my own voice for this. Felt strange!",
+    "audio-list-title-3": "MUSIC",
+    "audio-list-3": "This is pretty self-explanatory. Had to catch a vibe.",
+    "audio-list-title-4": "FOLEY",
+    "audio-list-4": "To mimic environmental and action sounds, I used myself and objects. I stepped on leaves in a storage bin, I scraped sandpaper against a table for the knife, and I ruffled my jacket for her clothes.",
+    "audio-list-title-5": "POST-PRODUCTION",
+    "audio-list-5": "Finally, I edited the sounds to convey their role in the scene's emotion and spacial position.",
+    "audio-description-4": "Overall, this project was a lot of fun to put together, and I could've kept working on it forever if there hadn't been a deadline."
 }

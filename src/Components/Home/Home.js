@@ -49,7 +49,7 @@ const Home = () => {
                     <br/>
                     </span>
                     <br/>
-                    <b>last updated: 5 October 2023</b>
+                    <b>last updated: 24 October 2023</b>
                 </div>
                 <h2>&#128011;</h2>
             </div>

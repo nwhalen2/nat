@@ -33,16 +33,15 @@
 	background-color: #9999fb;
 	border-top: double 8px;
 	border-bottom: double 8px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .arrow {
 	padding: 20px;
 	height: 50px;
-}
-
-.music-photo {
-	height: 80%;
-	max-width: 90%;
 }
 
 .music-box {
@@ -79,4 +78,27 @@ li.mus {
 .wsnd-link {
 	text-decoration: underline;
 	color: #59d5e8;
+}
+
+@media (orientation: portrait) {
+	.music {
+		font-size: .7em;
+	}
+	.music-slideshow-container {
+		width: 80%;
+	}
+	.music-photo-container {
+		height: 200px;
+	}
+	.music-photo {
+		max-width: 90%;
+		max-height: 80%;
+	}
+}
+
+@media (orientation: landscape) {
+	.music-photo {
+		height: 80%;
+		max-width: 90%;
+	}
 }
