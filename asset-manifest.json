@@ -1,10 +1,8 @@
 {
   "files": {
-    "main.css": "/nat/static/css/main.9bd6a6c3.css",
-    "main.js": "/nat/static/js/main.a7ff4d63.js",
+    "main.css": "/nat/static/css/main.129cb93e.css",
+    "main.js": "/nat/static/js/main.d9a81414.js",
     "static/js/787.2ab5ba4a.chunk.js": "/nat/static/js/787.2ab5ba4a.chunk.js",
-    "static/media/Final_Portfolio.mp4": "/nat/static/media/Final_Portfolio.6d16e201880632a76208.mp4",
-    "static/media/flying.mp4": "/nat/static/media/flying.052d12771b1404a5b40c.mp4",
     "static/media/backer.jpeg": "/nat/static/media/backer.f32185aba1502bd4bc41.jpeg",
     "static/media/DOG3_selfie.jpeg": "/nat/static/media/DOG3_selfie.081e3d6a993c7eb14eea.jpeg",
     "static/media/DOG3_work.jpeg": "/nat/static/media/DOG3_work.bbdac1e7e3ac95d2da76.jpeg",
@@ -14,16 +12,16 @@
     "static/media/dole.jpeg": "/nat/static/media/dole.59ef223471e068aad634.jpeg",
     "static/media/avant.jpg": "/nat/static/media/avant.5e6e84160e6732fc532e.jpg",
     "static/media/nat-orange.png": "/nat/static/media/nat-orange.667864d07451db8658a4.png",
+    "static/media/bottle-shop.jpg": "/nat/static/media/bottle-shop.83fb2c72c38ca82f8be5.jpg",
     "static/media/acousticafe.jpg": "/nat/static/media/acousticafe.21256e441330fa5c86d6.jpg",
     "static/media/dancers.jpg": "/nat/static/media/dancers.b735f33e161142d702a8.jpg",
-    "static/media/bottle-shop.jpeg": "/nat/static/media/bottle-shop.f068787ed4e5504f42b5.jpeg",
     "index.html": "/nat/index.html",
-    "main.9bd6a6c3.css.map": "/nat/static/css/main.9bd6a6c3.css.map",
-    "main.a7ff4d63.js.map": "/nat/static/js/main.a7ff4d63.js.map",
+    "main.129cb93e.css.map": "/nat/static/css/main.129cb93e.css.map",
+    "main.d9a81414.js.map": "/nat/static/js/main.d9a81414.js.map",
     "787.2ab5ba4a.chunk.js.map": "/nat/static/js/787.2ab5ba4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bd6a6c3.css",
-    "static/js/main.a7ff4d63.js"
+    "static/css/main.129cb93e.css",
+    "static/js/main.d9a81414.js"
   ]
 }
