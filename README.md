@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Nat's Portfolio Website
+
+Hi! I have updated this website as of November 1st, 2023. I am facing an issue regarding a large file that I deleted from local space but that's meta-data is still fogging up my GitHub push capacity. I have tried git-filter-repo which doesn't register after i npm install it. I have tried git rm which doesn't recognize the file name since it is deleted. I will continue my efforts. This is all on the dark-mode branch. Despite this issue which prevents me to update this GitHub repo with up-to-date code, my website nwhalen2.github.io/nat IS up-to-date via `npm run deploy,` so check it out!!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## fontawesome
+
+npm i --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
 
 ## Available Scripts
 
@@ -18,12 +26,6 @@ You may also see any lint errors in the console.
 
 Deploys app.\
 Open [https://nwhalen2.github.io/nat] to view it in your browser
-
-### font awesome
-
-npm i --save @fortawesome/fontawesome-svg-core
-npm install --save @fortawesome/free-solid-svg-icons
-npm install --save @fortawesome/react-fontawesome
 
 ### `npm test`
 
