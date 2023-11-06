@@ -6,7 +6,7 @@
 .projects {
 	text-align: center;
     padding: 10px;
-    cursor: url("../../images/cursors/cursor-haight-blue.png"), pointer; 
+    cursor: url("../../media/cursors/cursor-haight-blue.png"), pointer; 
 }
 .projects > h1 {
     color: black;

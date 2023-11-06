@@ -1,9 +1,9 @@
 import "./Projects.css";
 import "../../App.css";
 import Nav from "../Nav/Nav.js";
-import dog3selfie from "../../images/DOG3_selfie.jpeg";
-import dog3work from "../../images/DOG3_work.jpeg";
-import hungerShot from "../../images/hunger-shot.png";
+import dog3selfie from "../../media/projects/DOG3_selfie.jpeg";
+import dog3work from "../../media/projects/DOG3_work.jpeg";
+import hungerShot from "../../media/projects/hunger-shot.png";
 import descriptions from "./Projects.json";
 
 const Comedy = () => {
