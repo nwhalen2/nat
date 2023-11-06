@@ -1,4 +1,9 @@
 {
+    "sc-init-thoughts": ": I love attending concerts, especially when I get to support local musicians at small venues.",
+    "sc-problem-statement": ": When I try to find concerts around Chicago, I find myself searching through specific venues to find artists I'd enjoy on dates that line up with my schedule. This can get messy and tedious, and I miss out on events when I don't search up all possible venues near me.",
+    "sc-proposal-1": ": I want to build a streamlined way to view concerts near me. By web-scraping Chicago music event sites and then creating a friendly user interface, ",
+    "sc-proposal-2": " will display live shows in particular areas on particular dates",
+
     "juke-1": "In spring of 2022, I spent my semester with 35 other CS students from Notre Dame (six girls total, woot woot) in Palo Alto, CA, where each of us took three classes and interned three days out of the week. I landed my internship with the startup ",
     "juke-2": "that allows musicians better compensation at gigs by providing audience members the option to tip and request songs through a QR Code on stage. ",
     "juke-3": "I worked as a Full-Stack Engineer and further developed Juke's web application based in ",

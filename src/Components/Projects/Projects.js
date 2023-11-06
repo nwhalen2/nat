@@ -11,6 +11,19 @@ const Comedy = () => {
         <div className="projects-body">
             <Nav />
             <div className="projects">
+                <div className="projects-box">
+                    <div className="projects-description">Current Project - <b>SmallChicago</b></div>
+                    <br/>
+                    <div className="left projects-description">
+                        <b>Initial Thoughts</b>{descriptions["sc-init-thoughts"]}
+                        <br/><br/>
+                        <b>Problem Statement</b>{descriptions["sc-problem-statement"]}
+                        <br/><br/>
+                        <b>Solution</b>{descriptions["sc-proposal-1"]}
+                        <a href="https://github.com/nwhalen2" target="_blank" rel="noreferrer"><u>SmallChicago</u></a>
+                        {descriptions["sc-proposal-2"]}
+                    </div>
+                </div>
                 <h1>TECHNICAL & CREATIVE ACCOMPLISHMENTS</h1>
                 <h2>EMBEDDED SYSTEMS</h2>
                 <div className="projects-box">
@@ -20,10 +33,8 @@ const Comedy = () => {
                         <img src={dog3work} alt="Working on DOG3"></img>
                     </div>
                     <div className="projects-description">
-                        <div>
-                            My friend <a href="https://www.linkedin.com/in/hanjing-sylvia-zhu/" target="_blank" rel="noopener noreferrer">Hanjing Zhu</a>{descriptions["droid-description-1"]}
-                        </div>
-                        <ul className="droid-list">
+                        My friend <a href="https://www.linkedin.com/in/hanjing-sylvia-zhu/" target="_blank" rel="noopener noreferrer"><u>Hanjing Zhu</u></a>{descriptions["droid-description-1"]}
+                        <ul className="droid-list left">
                             <li><b>MOTOR & WHEELS: </b>{descriptions["droid-description-list-1"]}</li>
                             <li><b>SPEAKER: </b>{descriptions["droid-description-list-2"]}</li>
                             <li><b>SENSORS: </b>{descriptions["droid-description-list-3"]}</li>
@@ -41,7 +52,7 @@ const Comedy = () => {
                     <br/>
                     <div className="projects-description">
                         {descriptions["juke-1"]}
-                        <a href="https://juke.band"><u>Juke, a jukebox for live music</u> </a>
+                        <a href="https://juke.band" target="_blank" rel="noreferrer"><u>Juke, a jukebox for live music</u> </a>
                         {descriptions["juke-2"]}
                     </div>
                     <div className="juke-container">
@@ -85,7 +96,7 @@ const Comedy = () => {
                         {descriptions["marmon-2"]}
                         <b>AngularJS/HTML/CSS </b>
                         {descriptions["marmon-3"]}
-                        <ul className="droid-list">
+                        <ul className="left">
                             <li>{descriptions["marmon-list-1"]}</li>
                             <li>{descriptions["marmon-list-2"]}</li>
                             <li>{descriptions["marmon-list-3"]}</li>
@@ -144,7 +155,7 @@ const Comedy = () => {
                             <b>Adobe Audition </b>
                             {descriptions["audio-description-3-2"]}
                         </div>
-                        <ul className="droid-list">
+                        <ul className="left">
                             <li><b>{descriptions["audio-list-title-1"]}: </b>{descriptions["audio-list-1"]}</li>
                             <li><b>{descriptions["audio-list-title-2"]}: </b>{descriptions["audio-list-2"]}</li>
                             <li><b>{descriptions["audio-list-title-3"]}: </b>{descriptions["audio-list-3"]}</li>
