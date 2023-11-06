@@ -24,6 +24,10 @@ h2 {
 }
 .projects-box {
     background-color: #59d5e8;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	border: double 8px;
 }
 
 .dog3photos {

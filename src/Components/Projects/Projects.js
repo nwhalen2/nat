@@ -13,7 +13,7 @@ const Comedy = () => {
             <div className="projects">
                 <h1>TECHNICAL & CREATIVE ACCOMPLISHMENTS</h1>
                 <h2>EMBEDDED SYSTEMS</h2>
-                <div className="description-box projects-box">
+                <div className="projects-box">
                     <div className="projects-description">Arduino Droid - <b>DOG3</b></div>
                     <div className="dog3photos">
                         <img src={dog3selfie} alt="Selfie with DOG3"></img>
@@ -36,7 +36,7 @@ const Comedy = () => {
                     </div>
                 </div>
                 <h2>FULL STACK DEVELOPMENT</h2>
-                <div className="description-box projects-box">
+                <div className="projects-box">
                     <div className="projects-description">Silicon Valley Startup - <b>Juke</b></div>
                     <br/>
                     <div className="projects-description">
@@ -73,7 +73,7 @@ const Comedy = () => {
                         </div>
                     </div>
                 </div>
-                <div className="description-box projects-box">
+                <div className="projects-box">
                     <div className="projects-description">Marmon Group - <b>Custom Glove App</b></div>
                     <div className="dog3photos">
                         <img src="https://drive.google.com/uc?export=view&id=1HNZUUWqxwddjEln8Sg657N21rRnSsyPk" alt="input hand with scaling object"/>
@@ -92,7 +92,7 @@ const Comedy = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="description-box projects-box">
+                <div className="projects-box">
                     <div className="projects-description">Epic Systems - <b>Prescription Translator</b></div>
                     <br/>
                     <div className="projects-description">
@@ -108,7 +108,7 @@ const Comedy = () => {
                     </div>
                 </div>
                 <h2>VISUAL EFFECTS</h2>
-                <div className="description-box projects-box">
+                <div className="projects-box">
                     <div className="projects-description">Green Screen - <b>DREAMING</b></div>
                     <video controls className="project-video" src="https://drive.google.com/uc?id=1LuHTY-tBQQkF7KD4dT2rh0xReFyPPYof"/>
                     <div>
@@ -116,7 +116,7 @@ const Comedy = () => {
                         {descriptions['gs-description-1']}
                     </div>
                 </div>
-                <div className="description-box projects-box">
+                <div className="projects-box">
                     <div className="projects-description">Modeling & Animation - <b>PORTFOLIO</b></div>
                     <video controls className="project-video" src="https://drive.google.com/uc?id=11mtFjyZfdj2j_EKnI3rFsLQ80woCHfeZ"/>
                     <div>
@@ -129,7 +129,7 @@ const Comedy = () => {
                     </div>
                 </div>
                 <h2>AUDIO DESIGN</h2>
-                <div className="description-box projects-box">
+                <div className="projects-box">
                     <div className="projects-description">Scene Strip & Overlay - <b>HUNGER GAMES</b></div>
                     <a href="https://drive.google.com/file/d/1mVi94brElREKnQvmUXzLc427SkwU0wzk/view?usp=drive_link" target="_blank" rel="noreferrer">
                         <img className="project-video" src={hungerShot} alt="Unable to load"></img>
