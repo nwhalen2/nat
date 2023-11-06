@@ -1,11 +1,11 @@
 import "./Projects.css";
 import "../../App.css";
 import Nav from "../Nav/Nav.js";
-import dog3selfie from "../../media/projects/DOG3_selfie.jpeg";
-import dog3work from "../../media/projects/DOG3_work.jpeg";
-import flying from "../../media/projects/flying.mp4";
-import maya from "../../media/projects/Final_Portfolio.mp4";
-import hungerGames from "../../media/projects/HUNGER_STEREO-MIX.mp4";
+import dog3selfie from "../../images/DOG3_selfie.jpeg";
+import dog3work from "../../images/DOG3_work.jpeg";
+//import flying from "../../media/projects/flying.mp4";
+//import maya from "../../media/projects/Final_Portfolio.mp4";
+//import hungerGames from "../../media/projects/HUNGER_STEREO-MIX.mp4";
 import descriptions from "./Projects.json";
 
 const Comedy = () => {
@@ -40,22 +40,13 @@ const Comedy = () => {
                 <h2>VISUAL EFFECTS</h2>
                 <div className="description-box comedy-box">
                     <div className="description">Green Screen - <b>DREAMING</b></div>
-                    <video controls="controls" className="project-video">
-                        <source src={flying} type="video/mp4"></source>
-                    </video>
                 </div>
                 <div className="description-box comedy-box">
                     <div className="description">Maya Compilation - <b>PORTFOLIO</b></div>
-                    <video controls="controls" className="project-video">
-                        <source src={maya} type="video/mp4"></source>
-                    </video>
                 </div>
                 <h2>AUDIO DESIGN</h2>
                 <div className="description-box comedy-box">
                     <div className="description">Scene Strip & Overlay - <b>HUNGER GAMES</b></div>
-                    <video controls="controls" className="project-video">
-                        <source src={hungerGames} type="video/mp4"></source>
-                    </video>
                 </div>
                 <h2>&#128011;</h2>
             </div>

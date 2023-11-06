@@ -1,23 +1,23 @@
 import "./Music.css";
 import Nav from "./../Nav/Nav.js";
 import "../../App.css";
-import dole from "../../media/gigs/dole.jpeg";
-import dole2 from "../../media/gigs/dole2.png";
-import avant from "../../media/gigs/avant.jpg";
-import avant2 from "../../media/gigs/avant2.png";
-import dancers from "../../media/gigs/dancers.jpg";
-import acousticafe from "../../media/gigs/acousticafe.jpg";
-import bottleshop from "../../media/gigs/bottle-shop.jpeg";
+import dole from "../../images/dole.jpeg";
+import dole2 from "../../images/dole2.png";
+import avant from "../../images/avant.jpg";
+import avant2 from "../../images/avant2.png";
+import dancers from "../../images/dancers.jpg";
+import acousticafe from "../../images/acousticafe.jpg";
+//import bottleshop from "../../images/bottle-shop.jpeg";
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const musicImages = [
-    {
+   /* {
         url: bottleshop,
         title: "The Bottle Shop (2023)",
         caption: "Got to jam with Telstar in Lake Geneva, WI"
-    },
+    },*/
     {
         url: dole,
         title: "4th Fridays at the Dole (2023)"
