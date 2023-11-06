@@ -18,7 +18,7 @@ h2 {
     color: #01b7d3;
     letter-spacing: 1px;
 }
-.comedy-box {
+.projects-box {
     background-color: #59d5e8;
 }
 
@@ -33,10 +33,52 @@ h2 {
     padding: 10px;
 }
 
+.epic-photo > img {
+    height: 300px;
+    padding: 10px;
+}
+
 .droid-list {
     text-align: left;
 }
 
+.description > a {
+	color: black;
+	text-shadow: .5px .2px;
+}
+.description > a :hover {
+	cursor: pointer;
+}
+
+.juke-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-text {
+    text-align: left;
+    padding: 10px;
+    width: 80%;
+}
+.right-media {
+    width: 20%;
+}
+.juke-list {
+    display: flex;
+}
+.juke-list-empty {
+    width: 30%;
+}
+.juke-list-full {
+    text-align: left;
+    width: 70%;
+}
+.juke-list-box {
+    border: double 8px;
+    list-style-position: inside;
+    text-align: left;
+    padding: 10px;
+}
 
 .project-video {
     width: 75%;
@@ -47,19 +89,11 @@ h2 {
     .dog3photos {
         max-height: 120px;
     }
+    .comedy {
+        font-size: .7em;
+    }
+    .epic-photo > img {
+        max-width: 80%;
+        max-height: 150px;
+    }
   }
-
-/*
-#tab1 {
-    font-weight: normal;
-}
-#tab2 {
-    font-weight: normal;
-}
-#tab3 {
-    font-weight: normal;
-}
-#tab4 {
-    font-weight: bold;
-}
-*/
