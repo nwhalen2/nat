@@ -3,17 +3,9 @@ import "./Home.css";
 import "../../App.css";
 import me from "./nat-orange.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import spiels from "./Home.json";
 
 const Home = () => {
-    let spiel1 = " I graduated from the University of Notre Dame in May with a B.S. in Computer Science " 
-    + "and soon after had my job offer rescinded from my post-grad company during a large layoff. "
-    + "So I spent my summer road-tripping and camping across the US, traveling to different countries on a budget using Hopper for cheap flights, and playing around with this website. ";
-    let spiel2 = " But now I'm back! And fully re-invested into Software Engineering. "
-    + "Whether at home, the library, or my dad's office, I spend my days"
-    let spiel_list_1 = "Strengthening my programming skills by practicing LeetCode";
-    let spiel_list_2 = "Learning new skills like SQL";
-    let spiel_list_3 = "Building my network with LinkedIn, through personal connections, and by attending conferences, receptions, and other tech events.";
-    let spiel3 = " I am actively seeking full-time roles in Full-Stack Development / Engineering entry level positions.";
     return (
         <div className="home-body" >
             <Nav />
@@ -33,18 +25,18 @@ const Home = () => {
                 </div>
                 <div className="home-box">
                     <div className="spiel" >
-                        <b>Where I've been:</b>{spiel1}
+                        <b>Where I've been:</b>{spiels["spiel1"]}
                     </div>
                     <div className="spiel" >
-                        <b>Where I am:</b>{spiel2}
+                        <b>Where I am:</b>{spiels["spiel2"]}
                         <ul className="currList">
-                            <li>{spiel_list_1}</li>
-                            <li>{spiel_list_2}</li>
-                            <li>{spiel_list_3}</li>
+                            <li>{spiels["spiel_list_1"]}</li>
+                            <li>{spiels["spiel_list_2"]}</li>
+                            <li>{spiels["spiel_list_3"]}</li>
                         </ul>
                     </div>
                     <div className="spiel" >
-                        <b>Where I'm headed:</b>{spiel3}
+                        <b>Where I'm headed:</b>{spiels["spiel3"]}
                     </div>
                     <br/>
                     <img className="photo-of-me" src={me} alt="me" />
