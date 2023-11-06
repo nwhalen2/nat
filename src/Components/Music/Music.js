@@ -12,6 +12,7 @@ import backer from "../../images/backer.jpeg";
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import MusicStory from "./Music.json"
 
 /*
     {
@@ -49,37 +50,12 @@ const musicImages = [
 ]
 
 const arrows = {
-    //prevArrow: <button style={{ ...buttonStyle }}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M242 180.6v-138L0 256l242 213.4V331.2h270V180.6z"/></svg></button>,
-    //nextArrow: <button style={{ ...buttonStyle }}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M512 256L270 42.6v138.2H0v150.6h270v138z"/></svg></button>
     prevArrow: <span className="arrow">&#8249;</span>,
     nextArrow: <span className="arrow">&#8250;</span>
-    //nextArrow: <FontAwesomeIcon className="arrow" icon="chevron-right"></FontAwesomeIcon>,
-
-   //prevArrow: <span>&#x2190;</span>,
-    //nextArrow: <span>&#x2192;</span>
 }
 
 
 const Music = () => {
-
-    const musicStory1 = " when my Uncle Mike's bandmate Tony offered " + 
-    "to give me lessons. After a few months of Tony coming over once a week to teach me a song, like ";
-    const musicStory2 = " I began teaching myself songs online and have continued that way since. " + 
-    "Soon after picking up the guitar, I played around with vocals. I fell in love with the combo. "; 
-    const musicStory3 = "In 2017, I landed by first gig at ";
-    const musicStory4 = ", a monthly art show hosted in an old factory space in Harvard, IL. 4th Fridays celebrates art ranging from (besides music, of course) " + 
-     "paintings to photography to clothing to anything artisan and local. 4th Fridays is home to a number of studios, where artists " + 
-     "stand with their masterpieces and even work on them during the show. After a few years, 4th Fridays split into " + 
-     "two separate celebrations of art, an additional location emerging at ";
-     const musicStory5 = " in Crystal Lake, IL. I remain loyal to both organizations and play at one of each of their shows once a year. ";
-     const musicStory6 = "Now, I have played live at a handful of other venues, such as ";
-     const musicStory7 = " at their Lake Geneva and La Grange locations in Wisconsin and ";
-     const musicStory8 = ", a weekly showcase of students' musical talents at the University of Notre Dame.";
-     const musicStory9 = "I love to jam with ";
-     const musicStory10 = " on the drums, me on the guitar, and both of us on vocals. I am far from the professional musician " + 
-     "that he is, and I am constantly learning from his passion and expertise. Check out a recording during one of our jam sessions on the right!";
-
-
     
     return (
         <div className="musicBody">
@@ -107,25 +83,25 @@ const Music = () => {
                         <img className="left-media" src="https://drive.google.com/uc?export=view&id=19oOO4KTTwy6tQEntedcXMJaihBUkiGs4" alt="me & tony"/>
                         <span className="right-text">
                             <span className="begin-spiel">I started playing guitar in high school</span>
-                            {musicStory1} <b>Banana Pancakes</b> by Jack Johnson and <b>Smoke on the Water</b> by Deep Purple,
-                            {musicStory2} 
+                            {MusicStory["musicStory1"]} <b>Banana Pancakes</b> by Jack Johnson and <b>Smoke on the Water</b> by Deep Purple,
+                            {MusicStory["musicStory2"]} 
                             <FontAwesomeIcon icon="guitar"> </FontAwesomeIcon>
                             &nbsp;Now it's a pair deal&nbsp;
                             <FontAwesomeIcon icon="microphone"></FontAwesomeIcon> 
                         </span>
                     </div>
                     <br/><br/>
-                    {musicStory3} <a href="https://starlinefactory.com/4th-fridays/" target="_blank" rel="noreferrer"><u>4th Fridays</u></a> 
-                    {musicStory4} <a href="https://nancymerkling.com/4th-fridays/4th-fridays-at-the-dole/" target="_blank" rel="noreferrer"><u>The Dole</u></a>
-                    {musicStory5}
-                    {musicStory6} <a href="https://www.avantcyclecafe.com/articles/coffee-shop-pg211.htm" target="_blank" rel="noreferrer"><u>Avant Cycle Cafe</u></a>
-                    {musicStory7} <a href="https://www.sub.nd.edu/acousticaf" target="_blank" rel="noreferrer"><u>Acousticaf&eacute;</u></a>
-                    {musicStory8}
+                    {MusicStory["musicStory3"]} <a href="https://starlinefactory.com/4th-fridays/" target="_blank" rel="noreferrer"><u>4th Fridays</u></a> 
+                    {MusicStory["musicStory4"]} <a href="https://nancymerkling.com/4th-fridays/4th-fridays-at-the-dole/" target="_blank" rel="noreferrer"><u>The Dole</u></a>
+                    {MusicStory["musicStory5"]}
+                    {MusicStory["musicStory6"]} <a href="https://www.avantcyclecafe.com/articles/coffee-shop-pg211.htm" target="_blank" rel="noreferrer"><u>Avant Cycle Cafe</u></a>
+                    {MusicStory["musicStory7"]} <a href="https://www.sub.nd.edu/acousticaf" target="_blank" rel="noreferrer"><u>Acousticaf&eacute;</u></a>
+                    {MusicStory["musicStory8"]}
                     <br/><br/>
                     <div className="music-spiel">
                         <span className="left-text">
-                            {musicStory9} <a href="https://michaelwhalenmusician.com" target="_blank" rel="noreferrer"><u>Michael Whalen</u></a>
-                            {musicStory10}
+                            {MusicStory["musicStory9"]} <a href="https://michaelwhalenmusician.com" target="_blank" rel="noreferrer"><u>Michael Whalen</u></a>
+                            {MusicStory["musicStory10"]}
                         </span>
                         <video className="right-media" src="https://drive.google.com/uc?id=1gcjJKL-DX55hD0fQlCBAvCUZ00-WYiEx" controls></video>
                     </div>
