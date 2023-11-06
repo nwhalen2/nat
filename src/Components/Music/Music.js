@@ -7,22 +7,19 @@ import avant from "../../images/avant.jpg";
 import avant2 from "../../images/avant2.png";
 import dancers from "../../images/dancers.jpg";
 import acousticafe from "../../images/acousticafe.jpg";
-//import bottleshop from "../../images/bottle-shop.jpg";
+import bottleshop from "../../images/bottle-shop.jpg";
 import backer from "../../images/backer.jpeg";
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import MusicStory from "./Music.json"
 
-/*
+const musicImages = [
     {
         url: bottleshop,
         title: "The Bottle Shop (2023)",
         caption: "Got to jam with Telstar in Lake Geneva, WI"
     },
-*/
-
-const musicImages = [
     {
         url: dole,
         title: "4th Fridays at the Dole (2023)"
