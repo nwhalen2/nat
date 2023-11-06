@@ -7,6 +7,7 @@
 	text-align: center;
 	font-size: 1em;
 	padding: 10px;
+	cursor: url("../../media/cursors/cursor-haight-pink.png"), pointer; 
 }
 .resume > h2 {
 	color: #ff96bc;
