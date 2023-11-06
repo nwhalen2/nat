@@ -1,12 +1,14 @@
-.comedyBody {
+.projects-body {
+    /* guarantees the background goes all the way to the botttom of the page */
     min-height: 100%;
 }
 
-.comedy {
+.projects {
 	text-align: center;
     padding: 10px;
+    cursor: url("../../images/cursors/cursor-haight-blue.png"), pointer; 
 }
-.comedy > h1 {
+.projects > h1 {
     color: black;
     letter-spacing: 1px;
     text-shadow: -1px 1px 0 #01b7d3,
@@ -14,6 +16,8 @@
                          1px -1px 0 #01b7d3,
                         -1px -1px 0 #01b7d3;
 }
+
+/* section title */
 h2 {
     color: #01b7d3;
     letter-spacing: 1px;
@@ -42,11 +46,11 @@ h2 {
     text-align: left;
 }
 
-.description > a {
+.projects-description > a {
 	color: black;
 	text-shadow: .5px .2px;
 }
-.description > a :hover {
+.projects-description > a :hover {
 	cursor: pointer;
 }
 
@@ -55,6 +59,8 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+
+/* when text is on the left & media is on the right, i.e. juke image */
 .left-text {
     text-align: left;
     padding: 10px;
@@ -63,10 +69,12 @@ h2 {
 .right-media {
     width: 20%;
 }
+
 .juke-list {
     display: flex;
 }
 .juke-list-empty {
+    /* space to left of list, may add images later */
     width: 30%;
 }
 .juke-list-full {
@@ -89,7 +97,7 @@ h2 {
     .dog3photos {
         max-height: 120px;
     }
-    .comedy {
+    .projects {
         font-size: .7em;
     }
     .epic-photo > img {

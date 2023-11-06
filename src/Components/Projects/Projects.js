@@ -8,18 +8,18 @@ import descriptions from "./Projects.json";
 
 const Comedy = () => {
     return (
-        <div className="comedyBody">
+        <div className="projects-body">
             <Nav />
-            <div className="comedy">
+            <div className="projects">
                 <h1>TECHNICAL & CREATIVE ACCOMPLISHMENTS</h1>
                 <h2>EMBEDDED SYSTEMS</h2>
                 <div className="description-box projects-box">
-                    <div className="description">Arduino Droid - <b>DOG3</b></div>
+                    <div className="projects-description">Arduino Droid - <b>DOG3</b></div>
                     <div className="dog3photos">
                         <img src={dog3selfie} alt="Selfie with DOG3"></img>
                         <img src={dog3work} alt="Working on DOG3"></img>
                     </div>
-                    <div className="description">
+                    <div className="projects-description">
                         <div>
                             My friend <a href="https://www.linkedin.com/in/hanjing-sylvia-zhu/" target="_blank" rel="noopener noreferrer">Hanjing Zhu</a>{descriptions["droid-description-1"]}
                         </div>
@@ -37,9 +37,9 @@ const Comedy = () => {
                 </div>
                 <h2>FULL STACK DEVELOPMENT</h2>
                 <div className="description-box projects-box">
-                    <div className="description">Silicon Valley Startup - <b>Juke</b></div>
+                    <div className="projects-description">Silicon Valley Startup - <b>Juke</b></div>
                     <br/>
-                    <div className="description">
+                    <div className="projects-description">
                         {descriptions["juke-1"]}
                         <a href="https://juke.band"><u>Juke, a jukebox for live music</u> </a>
                         {descriptions["juke-2"]}
@@ -74,12 +74,12 @@ const Comedy = () => {
                     </div>
                 </div>
                 <div className="description-box projects-box">
-                    <div className="description">Marmon Group - <b>Custom Glove App</b></div>
+                    <div className="projects-description">Marmon Group - <b>Custom Glove App</b></div>
                     <div className="dog3photos">
                         <img src="https://drive.google.com/uc?export=view&id=1HNZUUWqxwddjEln8Sg657N21rRnSsyPk" alt="input hand with scaling object"/>
                         <img src="https://drive.google.com/uc?export=view&id=17wP9JpN4vhh6rCdQ1atzFEAPkiwME4sX" alt="output hand with measurements"/>
                     </div>
-                    <div className="description">
+                    <div className="projects-description">
                         {descriptions["marmon-1"]}
                         <b>Python algorithm </b>
                         {descriptions["marmon-2"]}
@@ -93,9 +93,9 @@ const Comedy = () => {
                     </div>
                 </div>
                 <div className="description-box projects-box">
-                    <div className="description">Epic Systems - <b>Prescription Translator</b></div>
+                    <div className="projects-description">Epic Systems - <b>Prescription Translator</b></div>
                     <br/>
-                    <div className="description">
+                    <div className="projects-description">
                         {descriptions["epic-1"]}
                         <b>Python </b>
                         {descriptions["epic-2"]}
@@ -103,13 +103,13 @@ const Comedy = () => {
                     <div className="epic-photo">
                         <img src="https://drive.google.com/uc?export=view&id=1XrkB2cm_q2KAuPwhWv2asilkP-6jwEro" alt="prescription translations"/>
                     </div>
-                    <div className="description">
+                    <div className="projects-description">
                         {descriptions["epic-3"]}
                     </div>
                 </div>
                 <h2>VISUAL EFFECTS</h2>
                 <div className="description-box projects-box">
-                    <div className="description">Green Screen - <b>DREAMING</b></div>
+                    <div className="projects-description">Green Screen - <b>DREAMING</b></div>
                     <video controls className="project-video" src="https://drive.google.com/uc?id=1LuHTY-tBQQkF7KD4dT2rh0xReFyPPYof"/>
                     <div>
                         Using a green screen and <b>DaVinci Resolve, </b>
@@ -117,7 +117,7 @@ const Comedy = () => {
                     </div>
                 </div>
                 <div className="description-box projects-box">
-                    <div className="description">Modeling & Animation - <b>PORTFOLIO</b></div>
+                    <div className="projects-description">Modeling & Animation - <b>PORTFOLIO</b></div>
                     <video controls className="project-video" src="https://drive.google.com/uc?id=11mtFjyZfdj2j_EKnI3rFsLQ80woCHfeZ"/>
                     <div>
                         Using <b>Autodesk Maya</b> and <b>Houdini</b>, 
@@ -130,13 +130,13 @@ const Comedy = () => {
                 </div>
                 <h2>AUDIO DESIGN</h2>
                 <div className="description-box projects-box">
-                    <div className="description">Scene Strip & Overlay - <b>HUNGER GAMES</b></div>
+                    <div className="projects-description">Scene Strip & Overlay - <b>HUNGER GAMES</b></div>
                     <a href="https://drive.google.com/file/d/1mVi94brElREKnQvmUXzLc427SkwU0wzk/view?usp=drive_link" target="_blank" rel="noreferrer">
                         <img className="project-video" src={hungerShot} alt="Unable to load"></img>
                     </a>
                     <div>(Click to watch the final product)</div>
                     <br/>
-                    <div className="description">
+                    <div className="projects-description">
                         <div>
                             {descriptions["audio-description-1"]}
                             <b>{descriptions["audio-description-2"]}</b>
