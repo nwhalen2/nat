@@ -55,7 +55,7 @@ const arrows = {
 const Music = () => {
     
     return (
-        <div className="musicBody">
+        <div className="music-body">
 
             <Nav />
 
