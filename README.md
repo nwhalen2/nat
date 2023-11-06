@@ -5,11 +5,12 @@ I chose React/NodeJS for my tech stack and have any relevant data stored in JSON
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## fontawesome
+## dependencies
 
 npm i --save @fortawesome/fontawesome-svg-core
 npm install --save @fortawesome/free-solid-svg-icons
 npm install --save @fortawesome/react-fontawesome
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
 
 ## Available Scripts
 
