@@ -42,7 +42,7 @@ const Home = () => {
                     <img className="photo-of-me" src={me} alt="me" />
                     <br/>
                     <br/>
-                    <div className="description">Feel free to browse through my current tabs and learn a bit about me!
+                    <div className="center">Feel free to browse through my current tabs and learn a bit about me!
                         <br/>
                         <b>last updated: 6 November 2023</b>
                     </div>
