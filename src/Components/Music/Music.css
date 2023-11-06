@@ -1,12 +1,15 @@
 .musicBody {
-	min-height: 100%; /* this guarantees the background goes all the way to the botttom of the page */
+	/* guarantees the background goes all the way to the botttom of the page */
+	min-height: 100%; 
 }
 
 .music {
 	text-align: center;
 	padding: 10px;
-	cursor: url("../../images/cursors/cursor-haight-purple.png"), pointer; /* custom pointer for page */
+	cursor: url("../../images/cursors/cursor-haight-purple.png"), pointer; 
 }
+
+/* STAGE & STUDIO */
 .music > h1 {
     color: black;
     letter-spacing: 1px;
@@ -15,19 +18,19 @@
                          1px -1px 0 #7979fa,
                         -1px -1px 0 #7979fa;
 }
+
+/* smaller titles */
 .music > h2 {
 	color: #7979fa;
 	letter-spacing: 2px;
 }
-.music > h3 {
-	color: #7979fa;
-}
+
+/* slideshow */
 .music-slideshow-container {
 	width: 60%;
 	display: block;
   	margin: auto; /* center */
 }
-
 .music-photo-container {
 	padding: 20px;
 	height: 300px;
@@ -39,47 +42,9 @@
 	justify-content: center;
 	align-items: center;
 }
-
 .arrow {
 	padding: 15px;
 	font-size: 5em;
-}
-
-.music-spiel { /* image & text combo */
-	display: flex;
-	align-items: center;
-}
-
-.music .left-media {
-	width: 30%;
-}
-
-.music .left-text {
-	text-align: right;
-	padding: 10px;
-	width: 70%;
-}
-
-.music .right-text {
-	text-align: left;
-	padding: 10px;
-	width: 70%;
-}
-
-.music .right-media {
-	width: 30%;
-}
-
-.i1 {
-	font-size: 1.3em;
-}
-
-.music a {
-	color: black;
-	text-shadow: .5px .2px;
-}
-.music a :hover {
-	cursor: pointer;
 }
 
 .music-box {
@@ -90,23 +55,51 @@
 	background-color: #9999fb;
 }
 
+.music-spiel { /* image & text combo */
+	display: flex;
+	align-items: center;
+}
+
+/* when media is on the left & text is on the right */
+.music .left-media {
+	width: 30%;
+}
+.music .right-text {
+	text-align: left;
+	padding: 10px;
+	width: 70%;
+}
+/* when text is on the left & media is on the right */
+.music .left-text {
+	text-align: right;
+	padding: 10px;
+	width: 70%;
+}
+.music .right-media {
+	width: 30%;
+}
+
+/* "I started playing guitar in high school..." grabber */
+.begin-spiel {
+	font-size: 1.3em;
+}
+
+/* links to venues & michael whalen */
+.music a {
+	color: black;
+	text-shadow: .5px .2px;
+}
+.music a :hover {
+	cursor: pointer;
+}
+
+/* supress white contrast until custom design */
 .music audio {
 	opacity: 50%;
 }
 
-.shows {
-	display: flex; 
-}
-
-.music source {
-	background-color: black;
-}
-
-.comedy-photo {
-	height: 200px;
-	color: #7979fa;
-}
-.comedy-box {
+/* standup comedy stuff, needs upgrade for sure */
+.standup-box {
 	margin: 10px;
 	padding: 10px;
 	display: block;
@@ -116,12 +109,17 @@
 	border: double 8px;
 	background-color: #9999fb;
 }
+.standup-photo {
+	height: 200px;
+	color: #7979fa;
+}
 
 @media (orientation: portrait) {
+	/* adjust sizing & placement for orientation compatibility */
 	.music {
 		font-size: .7em;
 	}
-	.i1 {
+	.begin-spiel {
 		font-size: 1.2em;
 	}
 	.music-slideshow-container {

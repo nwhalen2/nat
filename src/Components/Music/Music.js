@@ -106,7 +106,7 @@ const Music = () => {
                     <div className="music-spiel">
                         <img className="left-media" src="https://drive.google.com/uc?export=view&id=19oOO4KTTwy6tQEntedcXMJaihBUkiGs4" alt="me & tony"/>
                         <span className="right-text">
-                            <span className="i1">I started playing guitar in high school</span>
+                            <span className="begin-spiel">I started playing guitar in high school</span>
                             {musicStory1} <b>Banana Pancakes</b> by Jack Johnson and <b>Smoke on the Water</b> by Deep Purple,
                             {musicStory2} 
                             <FontAwesomeIcon icon="guitar"> </FontAwesomeIcon>
@@ -144,10 +144,10 @@ const Music = () => {
                     </div>
                 </div>
                 <h2>STAND UP</h2>
-                <div className="music-box">
+                <div className="music-box standup-box">
                     <div>I also do stand up comedy! I joined Student Standups at the University of Notre Dame and performed at several shows on and off campus. Life is funny, so let's laugh about it!</div>
                     <br/>
-                    <img className="comedy-photo" src={backer} alt="I did standup at the LineBacker Lounge in South Bend, IN"></img>
+                    <img className="standup-photo" src={backer} alt="I did standup at the LineBacker Lounge in South Bend, IN"></img>
                     <br/><br/>
                     <div>This is me performing a standup set at the <b> LineBacker Lounge </b> in South Bend, IN.</div>
                 </div>
