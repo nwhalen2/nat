@@ -9,6 +9,7 @@
 	color: #f88e0b;
 }
 
+/* NATALIE WHALEN outline title */
 .home > h1 {
 	color: #f88e0b;
 	text-shadow: -1px 1px 0 #000,
@@ -16,6 +17,7 @@
                          1px -1px 0 #000,
                         -1px -1px 0 #000;
 	letter-spacing: 2px;
+	text-align: center;
 }
 
 .home-box {
@@ -25,44 +27,49 @@
 	background-color: black;
 }
 
+.center {
+	text-align: center;
+}
+
+/* LinkedIn and GitHub links */
+.home-links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
 .social-links:link {
 	color: #f88e0b;
 	margin: 40px;
 }
-
 .social-links {
 	color: #ffb457;
 }
-
 .social-links:visited {
 	color: #f88e0b;
 }
 .social-links:hover {
 	color: black;
 }
-
 .social-link {
 	height: 40px;
 }
 
-.home > * {
+/* self-explanatory */
+.photo-of-me {
+	width: 40%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.whale {
 	text-align: center;
 }
 
-.photo-of-me {
-	width: 40%;
-}
-
-/*
-@media (orientation: landscape) {
-	.description-box {
-		display: flex;
-		flex-flow: row nowrap;
-		text-align: center;
-		width: 60%;
-	}
-	.description {
-		justify-content: center;
+/* size down font for portrait */
+@media (orientation: portrait) {
+	.home {
+		font-size: .7em;
 	}
   }
-*/

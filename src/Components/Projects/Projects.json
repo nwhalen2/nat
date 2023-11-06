@@ -1,9 +1,57 @@
 {
+    "juke-1": "In spring of 2022, I spent my semester with 35 other CS students from Notre Dame (six girls total, woot woot) in Palo Alto, CA, where each of us took three classes and interned three days out of the week. I landed my internship with the startup ",
+    "juke-2": "that allows musicians better compensation at gigs by providing audience members the option to tip and request songs through a QR Code on stage. ",
+    "juke-3": "I worked as a Full-Stack Engineer and further developed Juke's web application based in ",
+    "juke-4": " I really enjoyed my time here and continued working for Juke through the summer. Here are a few examples of what I did at Juke: ",
+    "juke-frontend-1": "Convert Figma designs to code",
+    "juke-frontend-2": "Animated Home Button to indicate when a show is live",
+    "juke-frontend-3": "Popup when an artist receives a tip or song request",
+    "juke-frontend-4": "Visual for automatic refresh",
+    "juke-frontend-5": "Display average tip amount next to each song on artist setlist",
+    "juke-backend-1": "Coded a python script to identify all unused lines of CSS",
+    "juke-backend-2": "Wrote a SQL query for average tip amount & minimum per song function with http route endpoint",
+    "juke-backend-3": "Set up a cronjob to send calculated earnings in a daily Slack message to the team",
+    "juke-backend-4": "Added an 'Export' option for bands to extract their earnings data in a CSV",
+
+    "marmon-1": "The goal was to create a service that provides custom-sized gloves to workers. On the Innovation team at Marmon Group, I helped build a ",
+    "marmon-2": "that takes the input of a user's hand next to a scalable object (playing card, gift card,...) and calculates 11 different dimensional measurements to send to a glove manufacturer. We then created a Progressive Web Application (PWA) in ",
+    "marmon-3": "as an environment for the user. Most of my personal contribution came from ",
+    "marmon-list-1": "Optimizing the algorithm to be compatible with different scaling objects", 
+    "marmon-list-2": "Monitoring the team's progress and timeline by checking in with my colleagues regularly", 
+    "marmon-list-3": "Designing and building out the PWA UI",
+
+    "epic-1": "As an outsourced 'preternship' with Epic Systems during my Data Structures course, I worked with a team of three others to build a ", 
+    "epic-2": "text translator between Spanish and English. We began with a database of two way translations of popular prescriptions: ",
+    "epic-3": "We were able to translate some common strings from English to Spanish and vice versa without having to worry much about conjugation and order. We further developed the program to translate using Google's Natural Language AI API (my teammates) and built a JS/HTML/CSS website hosted on an AWS EC2 Instance (me) to display our results. Since the API costs money after a free trial, the site no longer functions. ",
+    
     "droid-description-1": " and I built an autonomous droid this spring, with its worldly purpose aligning with that of a dog in a doghouse. Hence, we named it DOG3. By combining principles of Embedded Systems and Circuit Design at the intersection of hardware and software, we built DOG3 with the following attributes, all commanded or triggered by a PS3Controller:",
     "droid-description-list-1": "DOG3 was able to move in any direction at any speed (within a range of 0 to about 2.5mph).",
     "droid-description-list-2": "Directed by a microchip containing a library of custom sound files, DOG3 could be heard from five rooms over (we had some awkward moments during testing, as people aren’t always used to hearing loud barking in academic buildings).",
     "droid-description-list-3": "With sensors on the droid’s front, rear, and side, DOG3 was able to autonomously navigate through a course, both forward and backward, with a wall as a guide and a tape line to monitor accuracy.",
     "droid-description-list-4": "Peaking out from the doghouse, we 3D printed a two piece servo gear on the back of a dog model, so that DOG3 could wag its tail!",
     "droid-description-list-5": "DOG3 showed emotion via LEDs strategically placed by color code and position in a custom 3D print to display the droid’s “emotion” depending on which of three states it was in. The LEDs could also flash at different speeds and patterns.",
-    "droid-description-2": "DOG3 had three moods: happy, sad, and angry. When happy, DOG3 would shine a dashing (and flashing) smile, wag its tail, and either play with its toys or dance to songs like “Who Let The Dogs Out” by Baha Men. When sad, DOG3 would pout with a frown, slowly fading in and out, while it moved sheepishly backward. When angry, DOG3 would bark viciously with a nasty furrowed brow, ready to attack."
+    "droid-description-2": "DOG3 had three moods: happy, sad, and angry. When happy, DOG3 would shine a dashing (and flashing) smile, wag its tail, and either play with its toys or dance to songs like “Who Let The Dogs Out” by Baha Men. When sad, DOG3 would pout with a frown, slowly fading in and out, while it moved sheepishly backward. When angry, DOG3 would bark viciously with a nasty furrowed brow, ready to attack.",
+    
+    "gs-description-1": "I starred in and edited this silly video of me flying around the world to fun places. I could have overlayed appropriate audio for the video, but listen to Tom's chuckle (best hype man ever)!",
+
+    "vfx-description-1": " I learned an incredible amount about ",
+    "vfx-description-2": "modeling, rigging, and many different types of animation. ",
+    "vfx-description-3": "After caching and rendering scenes, I deployed my projects to ",
+    "vfx-description-4": "in order to convert the stills to video format.",
+   
+    "audio-description-1": "After a few listens to the original audio, I stripped all of the audio from the 'Tracker Jacker' scene in ",
+    "audio-description-2": "The Hunger Games. ", 
+    "audio-description-3": "I then added multiple layers using ",
+    "audio-description-3-2": "in an attempt to recreate the sounds conveying the actions and emotions of the subjects and surrounding objects.",
+    "audio-list-title-1": "SOUND EFFECT LIBRARIES",
+    "audio-list-1": "For noises like the tracker jacker buzzing, human screaming, and blaring echoes, I used available sound effect libraries. There were limited screams I could use :/",
+    "audio-list-title-2": "ME & THE MIC",
+    "audio-list-2": "In the scene, the only dialogue present is Katniss’ heavy breathing as she frantically scrambles to send the tracker jackers to those below. I recorded my own voice for this. Felt strange!",
+    "audio-list-title-3": "MUSIC",
+    "audio-list-3": "This is pretty self-explanatory. Had to catch a vibe.",
+    "audio-list-title-4": "FOLEY",
+    "audio-list-4": "To mimic environmental and action sounds, I used myself and objects. I stepped on leaves in a storage bin, I scraped sandpaper against a table for the knife, and I ruffled my jacket for her clothes.",
+    "audio-list-title-5": "POST-PRODUCTION",
+    "audio-list-5": "Finally, I edited the sounds to convey their role in the scene's emotion and spacial position.",
+    "audio-description-4": "Overall, this project was a lot of fun to put together, and I could've kept working on it forever if there hadn't been a deadline."
 }

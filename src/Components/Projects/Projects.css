@@ -1,12 +1,14 @@
-.comedyBody {
+.projects-body {
+    /* guarantees the background goes all the way to the botttom of the page */
     min-height: 100%;
 }
 
-.comedy {
+.projects {
 	text-align: center;
     padding: 10px;
+    cursor: url("../../images/cursors/cursor-haight-blue.png"), pointer; 
 }
-.comedy > h1 {
+.projects > h1 {
     color: black;
     letter-spacing: 1px;
     text-shadow: -1px 1px 0 #01b7d3,
@@ -14,11 +16,13 @@
                          1px -1px 0 #01b7d3,
                         -1px -1px 0 #01b7d3;
 }
+
+/* section title */
 h2 {
     color: #01b7d3;
     letter-spacing: 1px;
 }
-.comedy-box {
+.projects-box {
     background-color: #59d5e8;
 }
 
@@ -33,10 +37,56 @@ h2 {
     padding: 10px;
 }
 
+.epic-photo > img {
+    height: 300px;
+    padding: 10px;
+}
+
 .droid-list {
     text-align: left;
 }
 
+.projects-description > a {
+	color: black;
+	text-shadow: .5px .2px;
+}
+.projects-description > a :hover {
+	cursor: pointer;
+}
+
+.juke-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* when text is on the left & media is on the right, i.e. juke image */
+.left-text {
+    text-align: left;
+    padding: 10px;
+    width: 80%;
+}
+.right-media {
+    width: 20%;
+}
+
+.juke-list {
+    display: flex;
+}
+.juke-list-empty {
+    /* space to left of list, may add images later */
+    width: 30%;
+}
+.juke-list-full {
+    text-align: left;
+    width: 70%;
+}
+.juke-list-box {
+    border: double 8px;
+    list-style-position: inside;
+    text-align: left;
+    padding: 10px;
+}
 
 .project-video {
     width: 75%;
@@ -47,19 +97,11 @@ h2 {
     .dog3photos {
         max-height: 120px;
     }
+    .projects {
+        font-size: .7em;
+    }
+    .epic-photo > img {
+        max-width: 80%;
+        max-height: 150px;
+    }
   }
-
-/*
-#tab1 {
-    font-weight: normal;
-}
-#tab2 {
-    font-weight: normal;
-}
-#tab3 {
-    font-weight: normal;
-}
-#tab4 {
-    font-weight: bold;
-}
-*/

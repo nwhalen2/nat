@@ -1,11 +1,15 @@
-.musicBody {
-	min-height: 100%;
+.music-body {
+	/* guarantees the background goes all the way to the botttom of the page */
+	min-height: 100%; 
 }
 
 .music {
 	text-align: center;
 	padding: 10px;
+	cursor: url("../../images/cursors/cursor-haight-purple.png"), pointer; 
 }
+
+/* STAGE & STUDIO */
 .music > h1 {
     color: black;
     letter-spacing: 1px;
@@ -14,69 +18,155 @@
                          1px -1px 0 #7979fa,
                         -1px -1px 0 #7979fa;
 }
+
+/* smaller titles */
 .music > h2 {
 	color: #7979fa;
 	letter-spacing: 2px;
 }
-.music > h3 {
-	color: #7979fa;
-}
+
+/* slideshow */
 .music-slideshow-container {
 	width: 60%;
 	display: block;
-  	margin: auto;
+  	margin: auto; /* center */
 }
-
 .music-photo-container {
 	padding: 20px;
 	height: 300px;
 	background-color: #9999fb;
 	border-top: double 8px;
 	border-bottom: double 8px;
+	display: flex;
+	flex-direction: column; /* for the image & text combo */
+	justify-content: center;
+	align-items: center;
 }
-
 .arrow {
-	padding: 20px;
-	height: 50px;
-}
-
-.music-photo {
-	height: 80%;
-	max-width: 90%;
+	padding: 15px;
+	font-size: 5em;
 }
 
 .music-box {
 	margin: 10px;
 	padding: 10px;
 	text-align: center;
-	display: flex;
-	justify-content: center;
 	border: double 8px;
-}
-
-.small-box {
-	display: flex;
-	flex-direction: row;
-}
-
-.shows {
-	display: flex; 
-}
-
-
-li.mus {
-	text-align: center;
-	border: single 4px;
-	list-style-type: none;
-	border-color: white;
-	border: double 3px;
-	margin: 5px;
-	padding: 2px;
-	background-color: #5f5fffa9;
 	background-color: #9999fb;
 }
 
-.wsnd-link {
-	text-decoration: underline;
-	color: #59d5e8;
+.music-spiel { /* image & text combo */
+	display: flex;
+	align-items: center;
+}
+
+/* when media is on the left & text is on the right */
+.music .left-media {
+	width: 30%;
+}
+.music .right-text {
+	text-align: left;
+	padding: 10px;
+	width: 70%;
+}
+/* when text is on the left & media is on the right */
+.music .left-text {
+	text-align: right;
+	padding: 10px;
+	width: 70%;
+}
+.music .right-media {
+	width: 30%;
+}
+
+/* "I started playing guitar in high school..." grabber */
+.begin-spiel {
+	font-size: 1.3em;
+}
+
+/* links to venues & michael whalen */
+.music a {
+	color: black;
+	text-shadow: .5px .2px;
+}
+.music a :hover {
+	cursor: pointer;
+}
+
+/* supress white contrast until custom design */
+.music audio {
+	opacity: 50%;
+}
+
+/* standup comedy stuff, needs upgrade for sure */
+.standup-box {
+	margin: 10px;
+	padding: 10px;
+	display: block;
+	width: 60%;
+  	margin: auto; /* center */
+	text-align: center;
+	border: double 8px;
+	background-color: #9999fb;
+}
+.standup-photo {
+	height: 200px;
+	color: #7979fa;
+}
+
+@media (orientation: portrait) {
+	/* adjust sizing & placement for orientation compatibility */
+	.music {
+		font-size: .7em;
+	}
+	.begin-spiel {
+		font-size: 1.2em;
+	}
+	.music-slideshow-container {
+		width: 100%;
+	}
+	.music-photo-container {
+		height: 200px;
+	}
+	.music-photo {
+		max-width: 80%;
+		max-height: 70%;
+	}
+	.music-spiel { 
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.reverse {
+		flex-direction: column;
+	}
+	.music .left-media {
+		width: 80%;
+	}
+	.music .left-text {
+		width: 100%;
+		text-align: center;
+	}
+	.music .right-text {
+		width: 100%;
+		text-align: center;
+	}
+	.music .right-media {
+		width: 80%;
+	}
+	.music audio {
+		height: 40px;
+	}
+	.comedy-box {
+		width: 80%;
+	}
+	.comedy-photo {
+		height: 150px;
+	}
+}
+
+@media (orientation: landscape) {
+	.music-photo {
+		height: 80%;
+		max-width: 90%;
+	}
 }

@@ -7,17 +7,19 @@ import avant from "../../images/avant.jpg";
 import avant2 from "../../images/avant2.png";
 import dancers from "../../images/dancers.jpg";
 import acousticafe from "../../images/acousticafe.jpg";
-//import bottleshop from "../../images/bottle-shop.jpeg";
+import bottleshop from "../../images/bottle-shop.jpg";
+import backer from "../../images/backer.jpeg";
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import MusicStory from "./Music.json"
 
 const musicImages = [
-   /* {
+    {
         url: bottleshop,
         title: "The Bottle Shop (2023)",
         caption: "Got to jam with Telstar in Lake Geneva, WI"
-    },*/
+    },
     {
         url: dole,
         title: "4th Fridays at the Dole (2023)"
@@ -45,22 +47,20 @@ const musicImages = [
 ]
 
 const arrows = {
-    //prevArrow: <button style={{ ...buttonStyle }}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M242 180.6v-138L0 256l242 213.4V331.2h270V180.6z"/></svg></button>,
-    //nextArrow: <button style={{ ...buttonStyle }}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M512 256L270 42.6v138.2H0v150.6h270v138z"/></svg></button>
-    prevArrow: <FontAwesomeIcon className="arrow" icon="chevron-left"></FontAwesomeIcon>,
-    nextArrow: <FontAwesomeIcon className="arrow" icon="chevron-right"></FontAwesomeIcon>,
+    prevArrow: <span className="arrow">&#8249;</span>,
+    nextArrow: <span className="arrow">&#8250;</span>
 }
 
 
 const Music = () => {
+    
     return (
-        <div className="musicBody">
+        <div className="music-body">
 
             <Nav />
 
             <div className="music">
                 <h1>STAGE & STUDIO</h1>
-                <h2>LIVE MUSIC</h2>
                 <div className="music-slideshow-container">
                     <Slide {...arrows}>
                         {musicImages.map((musicImage, index)=> (
@@ -74,18 +74,55 @@ const Music = () => {
                         ))} 
                     </Slide>
                 </div>
-                <h2>this page will display my music endeavors.</h2>
-                <div className="small-box">
+                <h2>LIVE MUSIC</h2>
+                <div className="music-box">
+                    <div className="music-spiel">
+                        <img className="left-media" src="https://drive.google.com/uc?export=view&id=19oOO4KTTwy6tQEntedcXMJaihBUkiGs4" alt="me & tony"/>
+                        <span className="right-text">
+                            <span className="begin-spiel">I started playing guitar in high school</span>
+                            {MusicStory["musicStory1"]} <b>Banana Pancakes</b> by Jack Johnson and <b>Smoke on the Water</b> by Deep Purple,
+                            {MusicStory["musicStory2"]} 
+                            <FontAwesomeIcon icon="guitar"> </FontAwesomeIcon>
+                            &nbsp;Now it's a pair deal&nbsp;
+                            <FontAwesomeIcon icon="microphone"></FontAwesomeIcon> 
+                        </span>
+                    </div>
+                    <br/><br/>
+                    {MusicStory["musicStory3"]} <a href="https://starlinefactory.com/4th-fridays/" target="_blank" rel="noreferrer"><u>4th Fridays</u></a> 
+                    {MusicStory["musicStory4"]} <a href="https://nancymerkling.com/4th-fridays/4th-fridays-at-the-dole/" target="_blank" rel="noreferrer"><u>The Dole</u></a>
+                    {MusicStory["musicStory5"]}
+                    {MusicStory["musicStory6"]} <a href="https://www.avantcyclecafe.com/articles/coffee-shop-pg211.htm" target="_blank" rel="noreferrer"><u>Avant Cycle Cafe</u></a>
+                    {MusicStory["musicStory7"]} <a href="https://www.sub.nd.edu/acousticaf" target="_blank" rel="noreferrer"><u>Acousticaf&eacute;</u></a>
+                    {MusicStory["musicStory8"]}
+                    <br/><br/>
+                    <div className="music-spiel">
+                        <span className="left-text">
+                            {MusicStory["musicStory9"]} <a href="https://michaelwhalenmusician.com" target="_blank" rel="noreferrer"><u>Michael Whalen</u></a>
+                            {MusicStory["musicStory10"]}
+                        </span>
+                        <video className="right-media" src="https://drive.google.com/uc?id=1gcjJKL-DX55hD0fQlCBAvCUZ00-WYiEx" controls></video>
+                    </div>
+                    
+                </div>
+                <h2>ORIGINAL RECORDINGS</h2>
+                <div className="music-box">
+                    <div className="music-spiel reverse">
+                        <span className="left-text"><b>Voicemails: </b>I sampled old voicemail recordings, came up with a guitar riff, layered some AI drums on it with GarageBand along with some other funky effects, and boom! Take a listen.</span>
+                        <audio controls className="right-media" id="player" src="https://docs.google.com/uc?export=download&id=1Ypekz7VQo86lyGwcA1Os-ohESaDlcQKZ"/>
+                    </div>
                     <br/>
-                        <li className="mus">
-                            i sing & play the guitar at art shows & coffee shops
-                        </li>
-                        <li className="mus">
-                            at Notre Dame, i hosted a weekly Classic Rock radio show through <a className="wsnd-link" href="https://wsnd.nd.edu">WSND-FM 88.9</a>
-                        </li>
-                        <li className="mus">
-                            i also like to write/record music on my own
-                        </li>
+                    <div className="music-spiel">
+                        <audio controls className="left-media" id="player" src="https://docs.google.com/uc?export=download&id=1-_zu7ggSmuwFDiGhoX-nLfOW7AYupFA3"/>
+                        <span className="right-text"><b>Gray: </b>I wrote this song about that feeling of, well, the lack of feeling and the knowledge certain things happen whether within your control or not. I took my guitar, chords, and lyrics over to my friend Jack's basement, and we added some layers to produce what you can hear here.</span>
+                    </div>
+                </div>
+                <h2>STAND UP</h2>
+                <div className="music-box standup-box">
+                    <div>I also do stand up comedy! I joined Student Standups at the University of Notre Dame and performed at several shows on and off campus. Life is funny, so let's laugh about it!</div>
+                    <br/>
+                    <img className="standup-photo" src={backer} alt="I did standup at the LineBacker Lounge in South Bend, IN"></img>
+                    <br/><br/>
+                    <div>This is me performing a standup set at the <b> LineBacker Lounge </b> in South Bend, IN.</div>
                 </div>
                 <h2>&#128011;</h2>
             </div>
