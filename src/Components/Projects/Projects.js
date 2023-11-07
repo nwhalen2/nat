@@ -30,6 +30,7 @@ const Comedy = () => {
                             <li>Init GitHub repository</li>
                             <li>Web Scraping tutorials</li>
                             <li>Build python script to grab event data from single site, such as <a href="https://lh-st.com/">Lincoln Hall / Schubas</a></li>
+                            <li>Automate script</li>
                             <li>Explore if script can be cross-compatible across different venue websites</li>
                             <li>Expand script to work for many venues</li>
                         </ol>
