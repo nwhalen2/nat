@@ -1,48 +1,44 @@
-.resumeBody {
+.resume-body {
+	/* guarantees the background goes all the way to the botttom of the page */
 	min-height: 100%;
 }
 
 .resume {
 	color: black;
-	text-align: center;
 	font-size: 1em;
 	padding: 10px;
 	cursor: url("../../media/cursors/cursor-haight-pink.png"), pointer; 
 }
-.resume > h2 {
-	color: #ff96bc;
-	text-shadow: -.7px .7px 0 #fff,
-                          .7px .7px 0 #fff,
-                         .7px -.7px 0 #fff,
-                        -.7px -.7px 0 #fff;
-}
+
+/* section labels */
 .resume > h2 {
 	color: #f85792;
+	text-align: center;
 	text-shadow: -1px 1px 0 #000,
                           1px 1px 0 #000,
                          1px -1px 0 #000,
                         -1px -1px 0 #000;
 	letter-spacing: 2px;
 }
-.resume > * {
-	color: black;
-	text-align: center;
-} 
 
-#tab2 {
-	color: #f85792;
-}
-.box {
+.resume-box {
 	margin: 10px;
 	padding: 10px;
 	background-color: #ff96bc;
 	border: double 8px;
 }
+.resume-box a {
+	color: #a20740;
+}
+
+/* so that page doesn't end so abruptly after interests */
 .last {
 	padding-bottom: 20px;
 	margin-bottom: 10%;
+	text-align: center;
 }
 
+/* alignment for different sections */
 .double-sided {
 	display: flex;
 	flex-direction: row;
@@ -54,9 +50,6 @@
 .right {
 	text-align: right;
 }
-.title {
-	font-weight: bold;
-}
 .single-sided li {
 	list-style-type: square;
 }
@@ -66,17 +59,12 @@
 .single-sided > li > ul {
 	margin: 0;
 }
+
+/* horizontal line*/
 hr {
 	height: 2px;
 	border-width: 0;
-	color: rgba(255, 255, 255, 0.497);
 	background-color: rgba(0, 0, 0, 0.497);
-}
-
-a {
-	color: rgb(232, 25, 173);
-	color: #069;
-	text-decoration: none;
 }
 
 .resume-link {
@@ -84,7 +72,13 @@ a {
 }
 
 @media (orientation: portrait) {
-	.skills {
+	.resume {
+		font-size: .8em;
+	}
+	.resume-box {
+		font-size: .7em;
+	}
+	.last {
 		font-size: .8em;
 	}
 }

@@ -4,11 +4,11 @@ import Nav from "../Nav/Nav.js";
 
 const Resume = () => {
     return (
-        <div className="resumeBody">
+        <div className="resume-body">
             <Nav />
             <div className="resume">
                 <h2>EDUCATION</h2>
-                <div className="box">
+                <div className="resume-box">
                     <div className="double-sided">
                         <span className="left"><b>University of Notre Dame</b></span>
                         <span className="right">Notre Dame, IN</span>
@@ -22,15 +22,15 @@ const Resume = () => {
                     </div>
                     <hr />
                     <div className="double-sided">
-                        <span><b>Saint Ignatius College Prep</b></span>
-                        <span>Chicago, IL</span>
+                        <span className="left"><b>Saint Ignatius College Prep</b></span>
+                        <span className="right">Chicago, IL</span>
                     </div>
                     <div className="single-sided">
                         <span>4.2 GPA&ensp;34 ACT</span>
                     </div>
                 </div>
                 <h2>TECHNICAL SKILLS</h2>
-                <div className="box skills">
+                <div className="resume-box">
                     <div className="double-sided">
                         <span className="left">Coding Languages</span>
                         <span className="right">HTML&ensp;CSS&ensp;JavaScript&ensp;Node&ensp;Python&ensp;C&ensp;C++&ensp;Arduino&ensp;Java</span>
@@ -38,7 +38,7 @@ const Resume = () => {
                     <hr/>
                     <div className="double-sided">
                         <span className="left">Creative Platforms</span>
-                        <span>Adobe Audition&ensp;GarageBand&ensp;Maya&ensp;Houdini&ensp;DaVinci Resolve&ensp;Figma</span>
+                        <span className="right">Adobe Audition&ensp;GarageBand&ensp;Maya&ensp;Houdini&ensp;DaVinci Resolve&ensp;Figma</span>
                     </div>
                     <hr/>
                     <div className="double-sided">
@@ -52,7 +52,7 @@ const Resume = () => {
                     </div>
                 </div>
                 <h2>EMPLOYMENT</h2>
-                <div className="box">
+                <div className="resume-box">
                     <div className="double-sided">
                         <span className="left"><b>Juke</b></span>
                         <span className="right">Nashville, TN (remote)</span>
@@ -143,9 +143,9 @@ const Resume = () => {
                     </div>
                 </div>
                 <h2>INTERESTS</h2>
-                <div className="box last">
-                    <div className="single-sided">
-                        <span><a className="resume-link" href="https://open.spotify.com/user/1251793928?si=822c654623e94d18" target="_blank" rel="noreferrer">Classic Rock</a>&ensp;&ensp;Sustainability&ensp;&ensp;Travel&ensp;&ensp;Camping&ensp;&ensp;Hiking&ensp;&ensp;Running&ensp;&ensp;Playing sports (with sub-par talent)&ensp;&ensp;Critically acclaimed movies&ensp;&ensp;Community events&ensp;&ensp;3-Buck Chuck&ensp;&ensp;Animals</span>
+                <div className="resume-box last">
+                    <div>
+                        <span><a className="resume-link" href="https://open.spotify.com/user/1251793928?si=822c654623e94d18" target="_blank" rel="noreferrer">Classic Rock</a>&ensp;&ensp;Sustainability&ensp;&ensp;Travel&ensp;&ensp;Camping&ensp;&ensp;Hiking&ensp;&ensp;Running&ensp;&ensp;Playing sports (with sub-par talent)&ensp;&ensp;Critically acclaimed movies&ensp;&ensp;Community events&ensp;&ensp;"3-Buck Chuck"&ensp;&ensp;Animals</span>
                     </div>
                 </div>
                 <h2>&#128011;</h2>
