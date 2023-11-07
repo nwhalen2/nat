@@ -4,6 +4,7 @@ import "../../App.css";
 import me from "./nat-orange.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import spiels from "./Home.json";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -27,12 +28,14 @@ const Home = () => {
                     <div className="spiel" >
                         <b>Where I've been:</b>{spiels["spiel1"]}
                     </div>
+                    <br/>
                     <div className="spiel" >
                         <b>Where I am:</b>{spiels["spiel2"]}
-                        <ul className="currList">
+                        <ul className="curr-list">
                             <li>{spiels["spiel_list_1"]}</li>
-                            <li>{spiels["spiel_list_2"]}</li>
+                            <li>{spiels["spiel_list_2"]}, <Link className="projects-redirect" to="/projects">check it out <FontAwesomeIcon icon="hippo" /></Link></li>
                             <li>{spiels["spiel_list_3"]}</li>
+                            <li>{spiels["spiel_list_4"]}</li>
                         </ul>
                     </div>
                     <div className="spiel" >
