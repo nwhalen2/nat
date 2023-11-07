@@ -1,4 +1,5 @@
 .home-body {
+	/* guarantees the background goes all the way to the botttom of the page */
 	min-height: 100%;
 	font-family: "Lucida Console", "Courier New", monospace;
 }
