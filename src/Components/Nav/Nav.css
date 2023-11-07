@@ -10,7 +10,7 @@ nav {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
-  font-size: 2em;
+  font-size: 185%;
   list-style: none;
   text-decoration: none;
 }
