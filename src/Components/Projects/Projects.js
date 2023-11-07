@@ -6,6 +6,8 @@ import dog3work from "../../media/projects/DOG3_work.jpeg";
 import hungerShot from "../../media/projects/hunger-shot.png";
 import descriptions from "./Projects.json";
 
+// <a href="https://github.com/nwhalen2" target="_blank" rel="noreferrer"><u>SmallChicago</u></a>
+
 const Comedy = () => {
     return (
         <div className="projects-body">
@@ -20,8 +22,17 @@ const Comedy = () => {
                         <b>Problem Statement</b>{descriptions["sc-problem-statement"]}
                         <br/><br/>
                         <b>Solution</b>{descriptions["sc-proposal-1"]}
-                        <a href="https://github.com/nwhalen2" target="_blank" rel="noreferrer"><u>SmallChicago</u></a>
+                        this platform
                         {descriptions["sc-proposal-2"]}
+                        <br/><br/>
+                        <b>Next Steps: </b>
+                        <ol className='left'>
+                            <li>Init GitHub repository</li>
+                            <li>Web Scraping tutorials</li>
+                            <li>Build python script to grab event data from single site, such as <a href="https://lh-st.com/">Lincoln Hall / Schubas</a></li>
+                            <li>Explore if script can be cross-compatible across different venue websites</li>
+                            <li>Expand script to work for many venues</li>
+                        </ol>
                     </div>
                 </div>
                 <h1>TECHNICAL & CREATIVE ACCOMPLISHMENTS</h1>

@@ -50,9 +50,10 @@ h2 {
     text-align: left;
 }
 
-.projects-description > a {
-	color: black;
+.projects-description a {
+	color: #007486;
 	text-shadow: .5px .2px;
+    text-decoration: underline;
 }
 .projects-description > a :hover {
 	cursor: pointer;
