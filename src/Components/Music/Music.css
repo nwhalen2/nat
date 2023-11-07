@@ -156,10 +156,10 @@
 	.music audio {
 		height: 40px;
 	}
-	.comedy-box {
-		width: 80%;
+	.standup-box {
+		width: 100%;
 	}
-	.comedy-photo {
+	.standup-photo {
 		height: 150px;
 	}
 }
