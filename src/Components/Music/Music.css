@@ -81,7 +81,7 @@
 
 /* "I started playing guitar in high school..." grabber */
 .begin-spiel {
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 
 /* links to venues & michael whalen */
@@ -117,13 +117,13 @@
 @media (orientation: portrait) {
 	/* adjust sizing & placement for orientation compatibility */
 	.music {
-		font-size: .7em;
+		font-size: .8em;
 	}
 	.begin-spiel {
 		font-size: 1.2em;
 	}
 	.music-slideshow-container {
-		width: 100%;
+		width: 95%;
 	}
 	.music-photo-container {
 		height: 200px;
@@ -157,7 +157,7 @@
 		height: 40px;
 	}
 	.standup-box {
-		width: 80%;
+		width: 85%;
 	}
 	.standup-photo {
 		height: 150px;
