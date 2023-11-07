@@ -14,7 +14,7 @@ const Comedy = () => {
             <Nav />
             <div className="projects">
                 <div className="projects-box">
-                    <div className="projects-description">Current Project - <b>SmallChicago</b></div>
+                    <div className="projects-description">Current Project - <b>Live Music in Chicago</b></div>
                     <br/>
                     <div className="left projects-description">
                         <b>Initial Thoughts</b>{descriptions["sc-init-thoughts"]}
@@ -25,8 +25,8 @@ const Comedy = () => {
                         this platform
                         {descriptions["sc-proposal-2"]}
                         <br/><br/>
-                        <b>Next Steps: </b>
-                        <ol className='left'>
+                        <b>Next Steps:</b> Ask me!
+                        <ol className='left new-project-list'>
                             <li>Init GitHub repository</li>
                             <li>Web Scraping tutorials</li>
                             <li>Build python script to grab event data from single site, such as <a href="https://lh-st.com/">Lincoln Hall / Schubas</a></li>
