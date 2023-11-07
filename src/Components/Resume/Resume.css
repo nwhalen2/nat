@@ -31,13 +31,6 @@
 	color: #a20740;
 }
 
-/* so that page doesn't end so abruptly after interests */
-.last {
-	padding-bottom: 20px;
-	margin-bottom: 10%;
-	text-align: center;
-}
-
 /* alignment for different sections */
 .double-sided {
 	display: flex;
@@ -76,9 +69,6 @@ hr {
 		font-size: .8em;
 	}
 	.resume-box {
-		font-size: .8em;
-	}
-	.last {
 		font-size: .8em;
 	}
 }

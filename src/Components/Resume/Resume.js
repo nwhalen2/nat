@@ -143,7 +143,7 @@ const Resume = () => {
                     </div>
                 </div>
                 <h2>INTERESTS</h2>
-                <div className="resume-box last">
+                <div className="resume-box">
                     <div>
                         <span><a className="resume-link" href="https://open.spotify.com/user/1251793928?si=822c654623e94d18" target="_blank" rel="noreferrer">Classic Rock</a>&ensp;&ensp;Sustainability&ensp;&ensp;Travel&ensp;&ensp;Camping&ensp;&ensp;Hiking&ensp;&ensp;Running&ensp;&ensp;Playing sports (with sub-par talent)&ensp;&ensp;Critically acclaimed movies&ensp;&ensp;Community events&ensp;&ensp;"3-Buck Chuck"&ensp;&ensp;Animals</span>
                     </div>
