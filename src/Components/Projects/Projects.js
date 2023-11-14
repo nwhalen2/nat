@@ -25,7 +25,7 @@ const Comedy = () => {
                         this platform
                         {descriptions["sc-proposal-2"]}
                         <br/><br/>
-                        <b>Next Steps:</b> Ask me!
+                        <b>Next Steps:</b> Ask me! (or stalk my GitHub)
                         <ol className='left new-project-list'>
                             <li>Init GitHub repository</li>
                             <li>Web Scraping tutorials</li>
