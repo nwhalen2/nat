@@ -64,7 +64,7 @@ const Comedy = () => {
                     <br/>
                     <div className="projects-description">
                         {descriptions["juke-1"]}
-                        <a href="https://juke.band" target="_blank" rel="noreferrer"><u>Juke, a jukebox for live music</u> </a>
+                        <a href="https://juke.band" target="_blank" rel="noreferrer"><u>Juke, a jukebox for live music</u></a>
                         {descriptions["juke-2"]}
                     </div>
                     <div className="juke-container">
