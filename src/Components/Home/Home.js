@@ -30,16 +30,14 @@ const Home = () => {
                     </div>
                     <br/>
                     <div className="spiel" >
-                        <b>Where I am:</b>{spiels["spiel2"]}
-                        <ul className="curr-list">
-                            <li>{spiels["spiel_list_1"]}</li>
-                            <li>{spiels["spiel_list_2"]}, <Link className="projects-redirect" to="/projects">check it out <FontAwesomeIcon icon="hippo" /></Link></li>
-                            <li>{spiels["spiel_list_3"]}</li>
-                            <li>{spiels["spiel_list_4"]}</li>
-                        </ul>
+                        <b>Where I am:</b>{spiels["spiel2"]}<a href="https://www.truefirestudios.com/" class="spiel-link">TrueFire Studios</a>{spiels["spiel3"]}
+                        {spiels["spiel_list_2"]}, <Link className="projects-redirect" to="/projects">check it out <FontAwesomeIcon icon="hippo" /></Link>.
                     </div>
+                    <br/>
                     <div className="spiel" >
-                        <b>Where I'm headed:</b>{spiels["spiel3"]}
+                        <b>Where I'm headed:</b>{spiels["spiel4"]}
+                        <a href="https://www.mooneyfoundation.org/" class="spiel-link">John David Mooney Foundation</a>.
+                        {spiels["spiel5"]}
                     </div>
                     <br/>
                     <img className="photo-of-me" src={me} alt="me" />
@@ -47,7 +45,7 @@ const Home = () => {
                     <br/>
                     <div className="center">Feel free to browse through my current tabs and learn a bit about me!
                         <br/>
-                        <b>last updated: 6 November 2023</b>
+                        <b>last updated: 11 December 2023</b>
                     </div>
                 </div>
                 <h2 className="whale">&#128011;</h2>

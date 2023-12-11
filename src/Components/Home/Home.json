@@ -1,9 +1,11 @@
 {
-    "spiel1" : " I graduated from the University of Notre Dame in May with a B.S. in Computer Science and soon after had my job offer rescinded from my post-grad company during a large layoff. I spent my summer road-tripping and camping across the US, traveling to different countries on a budget, and playing around with this website. ",
-    "spiel2" : " I'm now fully re-invested into Software Engineering. Whether at home, the library, or my dad's office, I spend my days",
+    "spiel1" : " I graduated from the University of Notre Dame in May with a B.S. in Computer Science. I spent my summer road-tripping and camping across the US, traveling to different countries on a budget, and playing around with this website. ",
+    "spiel2" : " I just started working as a Frontend Developer with ",
+    "spiel3" : ". Aside from my new position, I spend my time reading, playing guitar, or ",
     "spiel_list_1" : "Updating this website ;)",
-    "spiel_list_2" : "Working on my 'Live Music in Chicago' project",
+    "spiel_list_2" : "working on my 'Live Music in Chicago' project",
     "spiel_list_3" : "Strengthening my problem solving skills with LeetCode and expanding my knowledge (just learned SQL)",
     "spiel_list_4" : "Building my network with LinkedIn, through personal connections, and by attending conferences, receptions, and other tech events.",
-    "spiel3" : " I am actively seeking entry level opportunities in Full Stack Engineering."
+    "spiel4" : " I'm looking to get involved in the non-profit space, particularly with the ",
+    "spiel5": " I plan to start redesigning their website and helping in any other ways I can."
 }
