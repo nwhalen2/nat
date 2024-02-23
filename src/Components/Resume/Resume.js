@@ -47,8 +47,8 @@ const Resume = () => {
                     </div>
                     <hr />
                     <div className="double-sided">
-                        <span className="left">Databases</span>
-                        <span className="right">SQL&ensp;Firebase&ensp;Back4App</span>
+                        <span className="left">Database / Cloud</span>
+                        <span className="right">Docker&ensp;AWS&ensp;SQL&ensp;Firebase&ensp;Back4App</span>
                     </div>
                 </div>
                 <h2>EMPLOYMENT</h2>
@@ -96,7 +96,7 @@ const Resume = () => {
                     </div>
                     <div className="single-sided">
                         <li>Continued development of <a className="resume-link" href="https://juke.band" target="_blank" rel="noopener noreferrer">juke.band</a> that allows audiences to request songs and tip performers at shows</li>
-                        <li>Code stack in Vuetify, JavaScript, Node.js, HTML/CSS, hosted on AWS Firebase</li>
+                        <li>Code stack in Vue, Node, HTML/CSS, hosted on AWS Firebase</li>
                         <li>Promptly completed debugging, database, and design related tasks to constantly improve UI/UX, i.e.
                         <ul>
                             <li>Converted Figma design mockups to code</li>
