@@ -27,22 +27,22 @@ const Home = () => {
                 <div className="home-box">
                     <div className="spiel" >
                         <b>University of Notre Dame:</b>{spiels["spiel1"]}
-                        <Link class="resume-redirect" to="/cs">Check out my resume </Link>for details.
+                        <Link className="resume-redirect" to="/cs">Check out my resume </Link>for details.
                         {spiels["spiel1.5"]}<Link className="projects-redirect" to="/projects">projects</Link>{spiels["spiel1.75"]}
                     </div>
                     <br/>
                     <div className="spiel" >
-                        <b>Work:</b>{spiels["spiel2"]}<a href="https://www.truefirestudios.com/" class="spiel-link">TrueFire Studios</a>
+                        <b>Work:</b>{spiels["spiel2"]}<a href="https://www.truefirestudios.com/" clasName="spiel-link">TrueFire Studios</a>
                         {spiels["spiel2.5"]}
-                        {spiels["spiel3"]}<a href="https://www.remotasks.com/" class="spiel-link">Remotasks</a>{spiels["spiel3.5"]}
+                        {spiels["spiel3"]}<a href="https://www.remotasks.com/" className="spiel-link">Remotasks</a>{spiels["spiel3.5"]}
                         {spiels["spiel4"]}
                     </div>
                     <br/>
                     <div className="spiel" >
                         <b>Volunteer:</b>{spiels["spiel5"]}
-                        <a href="https://www.buildingpeacefulbridges.org/" class="spiel-link">Building Peaceful Bridges</a>
+                        <a href="https://www.buildingpeacefulbridges.org/" className="spiel-link">Building Peaceful Bridges</a>
                         {spiels["spiel6"]}
-                        {spiels["spiel7"]}<a href="https://chirpradio.org/" class="spiel-link">Chirp</a>
+                        {spiels["spiel7"]}<a href="https://chirpradio.org/" className="spiel-link">Chirp</a>
                         {spiels["spiel8"]}
                     </div>
                     <br/>
