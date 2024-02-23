@@ -54,6 +54,39 @@ const Resume = () => {
                 <h2>EMPLOYMENT</h2>
                 <div className="resume-box">
                     <div className="double-sided">
+                        <span className="left"><b>TrueFire Studios</b></span>
+                        <span className="right">St. Petersburg, FL (remote)</span>
+                    </div>
+                    <div className="double-sided">
+                        <span className="left"><i>Front End Developer</i></span>
+                        <span className="right">Dec 2023 - Present</span>
+                    </div>
+                    <div className="single-sided">
+                        <li> Work closely with marketing team to understand and fulfill promotional requirements</li>
+                        <li>Develop new user-facing features using Vue.js</li>
+                        <li>Build reusable code and libraries for future use</li>
+                        <li>Ensure technical feasibility of UI and UX designs</li>
+                    </div>
+                    <hr />
+                    <div className="double-sided">
+                        <span className="left"><b>Remotasks</b></span>
+                        <span className="right">San Francisco, CA (remote)</span>
+                    </div>
+                    <div className="double-sided">
+                        <span className="left"><i>Platinum Coder</i></span>
+                        <span className="right">Dec 2023 - Present</span>
+                    </div>
+                    <div className="single-sided">
+                        <li>Train Large Language Models by
+                            <ul>
+                                <li>Coding out and writing clear explanations to algorithmic or language-specific programming questions, primarily in Python and JavaScript</li>
+                                <li>Creatively prompting AI with complex coding-related requests in order to engage coherent conversations</li>
+                                <li>Evaluating AI responses based on knowledge, sentience, and critical research</li>
+                            </ul>
+                        </li>
+                    </div>
+                    <hr />
+                    <div className="double-sided">
                         <span className="left"><b>Juke</b></span>
                         <span className="right">Nashville, TN (remote)</span>
                     </div>
@@ -64,7 +97,7 @@ const Resume = () => {
                     <div className="single-sided">
                         <li>Continued development of <a className="resume-link" href="https://juke.band" target="_blank" rel="noopener noreferrer">juke.band</a> that allows audiences to request songs and tip performers at shows</li>
                         <li>Code stack in Vuetify, JavaScript, Node.js, HTML/CSS, hosted on AWS Firebase</li>
-                        <li>Promptly completed debugging, database, and design related tasks to constantly improve UI/UX
+                        <li>Promptly completed debugging, database, and design related tasks to constantly improve UI/UX, i.e.
                         <ul>
                             <li>Converted Figma design mockups to code</li>
                             <li>Animated home button to indicate when shows are live</li>
