@@ -26,18 +26,31 @@ const Home = () => {
                 </div>
                 <div className="home-box">
                     <div className="spiel" >
-                        <b>Where I've been:</b>{spiels["spiel1"]}
+                        <b>University of Notre Dame:</b>{spiels["spiel1"]}
+                        <Link class="resume-redirect" to="/cs">Check out my resume </Link>for details.
+                        {spiels["spiel1.5"]}<Link className="projects-redirect" to="/projects">projects</Link>{spiels["spiel1.75"]}
                     </div>
                     <br/>
                     <div className="spiel" >
-                        <b>Where I am:</b>{spiels["spiel2"]}<a href="https://www.truefirestudios.com/" class="spiel-link">TrueFire Studios</a>{spiels["spiel3"]}
-                        {spiels["spiel_list_2"]}, <Link className="projects-redirect" to="/projects">check it out <FontAwesomeIcon icon="hippo" /></Link>.
+                        <b>Work:</b>{spiels["spiel2"]}<a href="https://www.truefirestudios.com/" class="spiel-link">TrueFire Studios</a>
+                        {spiels["spiel2.5"]}
+                        {spiels["spiel3"]}<a href="https://www.remotasks.com/" class="spiel-link">Remotasks</a>{spiels["spiel3.5"]}
+                        {spiels["spiel4"]}
                     </div>
                     <br/>
                     <div className="spiel" >
-                        <b>Where I'm headed:</b>{spiels["spiel4"]}
-                        <a href="https://www.mooneyfoundation.org/" class="spiel-link">John David Mooney Foundation</a>.
-                        {spiels["spiel5"]}
+                        <b>Volunteer:</b>{spiels["spiel5"]}
+                        <a href="https://www.buildingpeacefulbridges.org/" class="spiel-link">Building Peaceful Bridges</a>
+                        {spiels["spiel6"]}
+                        {spiels["spiel7"]}<a href="https://chirpradio.org/" class="spiel-link">Chirp</a>
+                        {spiels["spiel8"]}
+                    </div>
+                    <br/>
+                    <div className="spiel" >
+                        <b>Fun:</b>
+                        {spiels["spiel9"]}
+                        <Link className="music-redirect" to="/music">playing guitar</Link>
+                        {spiels["spiel10"]}
                     </div>
                     <br/>
                     <img className="photo-of-me" src={me} alt="me" />
@@ -45,7 +58,7 @@ const Home = () => {
                     <br/>
                     <div className="center">Feel free to browse through my current tabs and learn a bit about me!
                         <br/>
-                        <b>last updated: 11 December 2023</b>
+                        <b>last updated: 23 February 2024</b>
                     </div>
                 </div>
                 <h2 className="whale">&#128011;</h2>

@@ -1,11 +1,19 @@
 {
-    "spiel1" : " I graduated from the University of Notre Dame in May with a B.S. in Computer Science. I spent my summer road-tripping and camping across the US, traveling to different countries on a budget, and playing around with this website. ",
-    "spiel2" : " I just started working as a Frontend Developer with ",
-    "spiel3" : ". Aside from my new position, I spend my time reading, playing guitar, or ",
+    "spiel1" : " I graduated from the University of Notre Dame in May 2023 with a B.S. in Computer Science. During my time in college, I interned in several Full Stack Engineering roles for research, startup, and corporate projects. ",
+    "spiel1.5": " In addition to my employed endeavors, I worked on various ",
+    "spiel1.75": " that fueled my interests and curiosities.",
+    "spiel2" : " I work as a Frontend Developer with ",
+    "spiel2.5": ", a music education company focused on providing industry-leading lessons to all. When building out user-facing pages in Vue.js and populating them with data through API calls, I focus on design, modularization, device compatibility, and, of course, efficient functionality.",
+    "spiel3": " I am also a Platinum Coder for ",
+    "spiel3.5": ", where I rate AI-generated responses and write coding solutions to prompts in order to improve LLMs.",
     "spiel_list_1" : "Updating this website ;)",
     "spiel_list_2" : "working on my 'Live Music in Chicago' project",
     "spiel_list_3" : "Strengthening my problem solving skills with LeetCode and expanding my knowledge (just learned SQL)",
     "spiel_list_4" : "Building my network with LinkedIn, through personal connections, and by attending conferences, receptions, and other tech events.",
-    "spiel4" : " I'm looking to get involved in the non-profit space, particularly with the ",
-    "spiel5": " I plan to start redesigning their website and helping in any other ways I can."
+    "spiel5" : " I volunteer as a NDCC Impact Partner for ",
+    "spiel6": ", a nonprofit that helps integrate newcomers into American society through support and services. With a team of six other consultants, we plan to aid their marketing needs by enhancing their website's user experience in Wordpress and building sustainable fundraising material for the nonprofit.",
+    "spiel7": " Additionally, I'm a member of the Dev Team at ",
+    "spiel8": ", an independent radio station in Chicago (tune into 107.1!). I currently work on various full stack projects that aim to ease the daily work of DJs. Hopefully, in the near future, I'll be a DJ myself :)",
+    "spiel9": " Aside from coding, I spend my time reading, ",
+    "spiel10": " or saxophone, and writing jokes for open mics in Chicago."
 }

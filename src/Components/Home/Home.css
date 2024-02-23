@@ -56,10 +56,16 @@
 .spiel-link {
 	color: #b96600;
 }
-
+.resume-redirect {
+	text-decoration: none;
+	color: #ef0c5f;
+}
 .projects-redirect {
 	text-decoration: none;
-	color: #01b7d3;
+	color: #008397;
+}
+.music-redirect {
+	text-decoration: none;
 }
 
 /* self-explanatory */
