@@ -77,7 +77,8 @@ const Music = () => {
                 <h2>LIVE MUSIC</h2>
                 <div className="music-box">
                     <div className="music-spiel">
-                        <img className="left-media" src="https://drive.google.com/uc?export=view&id=19oOO4KTTwy6tQEntedcXMJaihBUkiGs4" alt="me & tony"/>
+                        { /*links converted via https://www.labnol.org/embed/google/drive/*/ }
+                        <img className="left-media" src="https://lh3.googleusercontent.com/drive-viewer/AKGpihb-zD5D1Hl3PQLacuizuAMIBWET408fKGJ24Mmbmkcb7RhGyKNyYfwrca5REck8rFLjaRwgcKCZeS72JlYfvmNm7PgWNQ=s1600-v0" alt="me & tony"/>
                         <span className="right-text">
                             <span className="begin-spiel">I started playing guitar in high school</span>
                             {MusicStory["musicStory1"]} <b>Banana Pancakes</b> by Jack Johnson and <b>Smoke on the Water</b> by Deep Purple,
@@ -100,7 +101,7 @@ const Music = () => {
                             {MusicStory["musicStory9"]} <a href="https://michaelwhalenmusician.com" target="_blank" rel="noreferrer"><u>Michael Whalen</u></a>
                             {MusicStory["musicStory10"]}
                         </span>
-                        <video className="right-media" src="https://drive.google.com/uc?id=1gcjJKL-DX55hD0fQlCBAvCUZ00-WYiEx" controls></video>
+                        <iframe title="hamrock" src="https://drive.google.com/file/d/1gcjJKL-DX55hD0fQlCBAvCUZ00-WYiEx/preview" frameborder="0"></iframe>
                     </div>
                     
                 </div>
@@ -108,12 +109,14 @@ const Music = () => {
                 <div className="music-box">
                     <div className="music-spiel reverse">
                         <span className="left-text"><b>Voicemails: </b>I sampled old voicemail recordings, came up with a guitar riff, layered some AI drums on it with GarageBand along with some other funky effects, and boom! Take a listen.</span>
-                        <audio controls className="right-media" id="player" src="https://docs.google.com/uc?export=download&id=1Ypekz7VQo86lyGwcA1Os-ohESaDlcQKZ"/>
+                        <iframe title="voicemails" className="iframe-audio" src="https://drive.google.com/file/d/1wztvnmK09cYE3d840YS2raWC13ZixVzm/preview" allow="autoplay"></iframe>
+                        {/* this is broken: audio controls className="right-media" id="player" src="https://docs.google.com/uc?export=download&id=1-_zu7ggSmuwFDiGhoX-nLfOW7AYupFA3"/> */}
                     </div>
                     <br/>
                     <div className="music-spiel">
-                        <audio controls className="left-media" id="player" src="https://docs.google.com/uc?export=download&id=1-_zu7ggSmuwFDiGhoX-nLfOW7AYupFA3"/>
-                        <span className="right-text"><b>Gray: </b>I wrote this song about that feeling of, well, the lack of feeling and the knowledge certain things happen whether within your control or not. I took my guitar, chords, and lyrics over to my friend Jack's basement, and we added some layers to produce what you can hear here.</span>
+                        {/* this is broken: <audio controls className="left-media" id="player" src="https://drive.google.com/file/d/1-_zu7ggSmuwFDiGhoX-nLfOW7AYupFA3/preview?usp=sharing"/>*/}
+                        <iframe title="gray" className="iframe-audio" src="https://drive.google.com/file/d/1-_zu7ggSmuwFDiGhoX-nLfOW7AYupFA3/preview" allow="autoplay"></iframe>
+                        <span className="right-text"><b>Gray: </b>I wrote this song about that feeling of, well, the lack of feeling and the knowledge that certain things happen whether within your control or not. I took my guitar, chords, and lyrics over to my friend Jack's basement, and we added some layers to produce what you can hear here.</span>
                     </div>
                 </div>
                 <h2>STAND UP</h2>

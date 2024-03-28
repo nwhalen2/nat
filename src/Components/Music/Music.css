@@ -99,6 +99,13 @@
 	opacity: 50%;
 }
 
+/* google drive removed audio tag functionality for audio files, ugly alt for now */
+.iframe-audio {
+	width: 60%;
+	max-height: 60px;
+	border: none;
+}
+
 /* standup comedy stuff, needs upgrade for sure */
 .standup-box {
 	margin: 10px;
