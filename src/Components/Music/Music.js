@@ -77,7 +77,7 @@ const Music = () => {
                 <h2>LIVE MUSIC</h2>
                 <div className="music-box">
                     <div className="music-spiel">
-                        { /*links converted via https://www.labnol.org/embed/google/drive/*/ }
+                        { /*link converted via https://www.labnol.org/embed/google/drive/*/ }
                         <img className="left-media" src="https://lh3.googleusercontent.com/drive-viewer/AKGpihb-zD5D1Hl3PQLacuizuAMIBWET408fKGJ24Mmbmkcb7RhGyKNyYfwrca5REck8rFLjaRwgcKCZeS72JlYfvmNm7PgWNQ=s1600-v0" alt="me & tony"/>
                         <span className="right-text">
                             <span className="begin-spiel">I started playing guitar in high school</span>
