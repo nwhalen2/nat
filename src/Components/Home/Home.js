@@ -58,7 +58,7 @@ const Home = () => {
                     <br/>
                     <div className="center">Feel free to browse through my current tabs and learn a bit about me!
                         <br/>
-                        <b>last updated: 23 February 2024</b>
+                        <b>last updated: 28 March 2024</b>
                     </div>
                 </div>
                 <h2 className="whale">&#128011;</h2>
