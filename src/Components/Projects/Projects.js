@@ -8,12 +8,10 @@ import flying from "../../media/projects/flying.png";
 import hungerShot from "../../media/projects/hunger-shot.png";
 import descriptions from "./Projects.json";
 
-// <a href="https://github.com/nwhalen2" target="_blank" rel="noreferrer"><u>SmallChicago</u></a>
 const PlayButton = () => {
+    // play button must be inside container with position: relative
     return (
-        <button  class="play-btn-outside" >
-			<span class="play-btn-inside">&#9658;</span> 
-		</button>
+        <button className="play-btn" >&#9658;</button>
     )
 }
 
