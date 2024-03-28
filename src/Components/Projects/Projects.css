@@ -97,12 +97,36 @@ h2 {
     padding: 10px;
 }
 
-.project-video {
-    width: 75%;
+.project-video-container {
     height: auto;
     padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.project-video-thumbnail {
+    width: 75%;
 }
 
+.play-btn-outside {
+    position: absolute;
+    cursor: pointer;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 5px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 4px double black;
+    background-color: #59d5e8;
+    color: black;
+}
+.play-btn-outside:hover {
+    opacity: 80%;
+    background-color: #01b7d3;
+}
 @media (orientation: portrait) {
     .dog3photos {
         max-height: 120px;

@@ -9,6 +9,13 @@ import hungerShot from "../../media/projects/hunger-shot.png";
 import descriptions from "./Projects.json";
 
 // <a href="https://github.com/nwhalen2" target="_blank" rel="noreferrer"><u>SmallChicago</u></a>
+const PlayButton = () => {
+    return (
+        <button  class="play-btn-outside" >
+			<span class="play-btn-inside">&#9658;</span> 
+		</button>
+    )
+}
 
 const Comedy = () => {
     return (
@@ -137,9 +144,12 @@ const Comedy = () => {
                 <div className="projects-box">
                     <div className="projects-description">Green Screen - <b>DREAMING</b></div>
                     {/* BROKEN: <video controls className="project-video" src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYxB5X25v3tbqiIozsShSDjm5Z_h7VM4tfpSKl-8CTmANqRfTmc4fUwsMC_I4q2XLF3z-wWZEtVjixxjbdJ32EWpAEJvw=s1600-v0"/> */} 
-                    <a href="https://drive.google.com/file/d/1o1xDA2fs-iqofkXrt3xz5SYbXUbFh-nk/view?usp=sharing" target="_blank" rel="noreferrer">
-                        <img className="project-video" src={flying} alt="Green Screen Video"></img>
-                    </a>
+                    <div className="project-video-container">
+                        <a href="https://drive.google.com/file/d/1o1xDA2fs-iqofkXrt3xz5SYbXUbFh-nk/view?usp=sharing" target="_blank" rel="noreferrer">
+                            <img className="project-video-thumbnail" src={flying} alt="Green Screen Video"></img>
+                            <PlayButton />
+                        </a>
+                    </div>
                     <div>
                         Using a green screen and <b>DaVinci Resolve, </b>
                         {descriptions['gs-description-1']}
@@ -148,9 +158,12 @@ const Comedy = () => {
                 <div className="projects-box">
                     <div className="projects-description">Modeling & Animation - <b>PORTFOLIO</b></div>
                     { /* BROKEN: <video controls className="project-video" src="https://drive.google.com/uc?id=11mtFjyZfdj2j_EKnI3rFsLQ80woCHfeZ"/> */ }
-                    <a href="https://drive.google.com/file/d/11mtFjyZfdj2j_EKnI3rFsLQ80woCHfeZ/view?usp=sharing" target="_blank" rel="noreferrer">
-                        <img className="project-video" src={scorpion} alt="VFX Portfolio"></img>
-                    </a>
+                    <div className="project-video-container">
+                        <a href="https://drive.google.com/file/d/11mtFjyZfdj2j_EKnI3rFsLQ80woCHfeZ/view?usp=sharing" target="_blank" rel="noreferrer">
+                            <img className="project-video-thumbnail" src={scorpion} alt="VFX Portfolio"></img>
+                            <PlayButton />
+                        </a>
+                    </div>
                     <div>
                         Using <b>Autodesk Maya</b> and <b>Houdini</b>, 
                         {descriptions["vfx-description-1"]}
@@ -163,11 +176,12 @@ const Comedy = () => {
                 <h2>AUDIO DESIGN</h2>
                 <div className="projects-box">
                     <div className="projects-description">Scene Strip & Overlay - <b>HUNGER GAMES</b></div>
-                    <a href="https://drive.google.com/file/d/1mVi94brElREKnQvmUXzLc427SkwU0wzk/view?usp=drive_link" target="_blank" rel="noreferrer">
-                        <img className="project-video" src={hungerShot} alt="Hunger Games Audio Project"></img>
-                    </a>
-                    <div>(Click to watch the final product)</div>
-                    <br/>
+                    <div className="project-video-container">
+                        <a href="https://drive.google.com/file/d/1mVi94brElREKnQvmUXzLc427SkwU0wzk/view?usp=drive_link" target="_blank" rel="noreferrer">
+                            <img className="project-video-thumbnail" src={hungerShot} alt="Hunger Games Audio Project" width="100%"></img>
+                            <PlayButton/>
+                        </a>
+                    </div>
                     <div className="projects-description">
                         <div>
                             {descriptions["audio-description-1"]}
