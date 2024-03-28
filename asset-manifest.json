@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/nat/static/css/main.7f8b9391.css",
-    "main.js": "/nat/static/js/main.83f1961d.js",
-    "static/js/512.4f6af954.chunk.js": "/nat/static/js/512.4f6af954.chunk.js",
+    "main.css": "/nat/static/css/main.bbf25f78.css",
+    "main.js": "/nat/static/js/main.2b2692d1.js",
+    "static/js/787.2ab5ba4a.chunk.js": "/nat/static/js/787.2ab5ba4a.chunk.js",
     "static/media/backer.jpeg": "/nat/static/media/backer.f32185aba1502bd4bc41.jpeg",
     "static/media/DOG3_selfie.jpeg": "/nat/static/media/DOG3_selfie.081e3d6a993c7eb14eea.jpeg",
+    "static/media/flying.png": "/nat/static/media/flying.a982bfe6b54338451c68.png",
     "static/media/DOG3_work.jpeg": "/nat/static/media/DOG3_work.bbdac1e7e3ac95d2da76.jpeg",
     "static/media/dole2.png": "/nat/static/media/dole2.874ae6ce1d782b162e71.png",
     "static/media/avant2.png": "/nat/static/media/avant2.37db45c3837dc3e766f4.png",
@@ -15,13 +16,14 @@
     "static/media/bottle-shop.jpg": "/nat/static/media/bottle-shop.83fb2c72c38ca82f8be5.jpg",
     "static/media/acousticafe.jpg": "/nat/static/media/acousticafe.21256e441330fa5c86d6.jpg",
     "static/media/dancers.jpg": "/nat/static/media/dancers.b735f33e161142d702a8.jpg",
+    "static/media/scorpion-rig.png": "/nat/static/media/scorpion-rig.9bf9db49c19448084ecf.png",
     "index.html": "/nat/index.html",
-    "main.7f8b9391.css.map": "/nat/static/css/main.7f8b9391.css.map",
-    "main.83f1961d.js.map": "/nat/static/js/main.83f1961d.js.map",
-    "512.4f6af954.chunk.js.map": "/nat/static/js/512.4f6af954.chunk.js.map"
+    "main.bbf25f78.css.map": "/nat/static/css/main.bbf25f78.css.map",
+    "main.2b2692d1.js.map": "/nat/static/js/main.2b2692d1.js.map",
+    "787.2ab5ba4a.chunk.js.map": "/nat/static/js/787.2ab5ba4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f8b9391.css",
-    "static/js/main.83f1961d.js"
+    "static/css/main.bbf25f78.css",
+    "static/js/main.2b2692d1.js"
   ]
 }
