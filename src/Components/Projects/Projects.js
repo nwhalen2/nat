@@ -3,6 +3,8 @@ import "../../App.css";
 import Nav from "../Nav/Nav.js";
 import dog3selfie from "../../media/projects/DOG3_selfie.jpeg";
 import dog3work from "../../media/projects/DOG3_work.jpeg";
+import scorpion from "../../media/projects/scorpion-rig.png";
+import flying from "../../media/projects/flying.png";
 import hungerShot from "../../media/projects/hunger-shot.png";
 import descriptions from "./Projects.json";
 
@@ -73,7 +75,7 @@ const Comedy = () => {
                             <b>Vue.js</b> with <b>Node.js </b> on the backend, <b>SQL </b>for database querying, and <b>AWS Firebase </b>for hosting and database storage.
                             {descriptions["juke-4"]}
                         </span>
-                        <img className="right-media" src="https://drive.google.com/uc?export=view&id=15J5l34xHMzmKpdpsl3F0nOP4T30SqeMW" alt="juke logo"/>
+                        <img className="right-media" src="https://lh3.googleusercontent.com/drive-viewer/AKGpihanRh_ZURjR6g-1r037FOCxPNIxwuG82RkAinYWL3zoXBLIQX7kM3sRi-o7VcBDFX94X-5jyU5lnVjDk8Vx3tlepzUk9Q=s2560" alt="juke logo"/>
                     </div>
                     <div className="juke-list">
                         <div className="juke-list-empty"></div>
@@ -99,8 +101,9 @@ const Comedy = () => {
                 <div className="projects-box">
                     <div className="projects-description">Marmon Group - <b>Custom Glove App</b></div>
                     <div className="dog3photos">
-                        <img src="https://drive.google.com/uc?export=view&id=1HNZUUWqxwddjEln8Sg657N21rRnSsyPk" alt="input hand with scaling object"/>
-                        <img src="https://drive.google.com/uc?export=view&id=17wP9JpN4vhh6rCdQ1atzFEAPkiwME4sX" alt="output hand with measurements"/>
+
+                    <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihaQ1Dx4BQOCzmAoczbSqs81XRFRBMSxN6ZoBMXE1U83M5omeBCYiOCENAy3x1q7wPfSmBOPo6kocSNjy_Y1GJJggS41=s1600-v0" alt="input hand with scaling object"/>
+                        <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYGhCmOhqpCRUXwspKeBlYvvTZewfVFFAOm0ARvi3WsA25Z551amkNvlNVfMzMPz6fvoju7wYtL-eRLmwYfRzaGjXPP=s1600-v0" alt="output hand with measurements"/>
                     </div>
                     <div className="projects-description">
                         {descriptions["marmon-1"]}
@@ -124,7 +127,7 @@ const Comedy = () => {
                         {descriptions["epic-2"]}
                     </div>
                     <div className="epic-photo">
-                        <img src="https://drive.google.com/uc?export=view&id=1XrkB2cm_q2KAuPwhWv2asilkP-6jwEro" alt="prescription translations"/>
+                        <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihY56Ru0Rc4i7MQh3tEEsHA1VfmNJ0o9-czqkjRZsvVBAW9SyNlupY04g9tBonzNs_45bvnnEYU9bemLga11xsuzm3abiQ=s1600-v0" alt="prescription translations"/>
                     </div>
                     <div className="projects-description">
                         {descriptions["epic-3"]}
@@ -133,7 +136,10 @@ const Comedy = () => {
                 <h2>VISUAL EFFECTS</h2>
                 <div className="projects-box">
                     <div className="projects-description">Green Screen - <b>DREAMING</b></div>
-                    <video controls className="project-video" src="https://drive.google.com/uc?id=1LuHTY-tBQQkF7KD4dT2rh0xReFyPPYof"/>
+                    {/* BROKEN: <video controls className="project-video" src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYxB5X25v3tbqiIozsShSDjm5Z_h7VM4tfpSKl-8CTmANqRfTmc4fUwsMC_I4q2XLF3z-wWZEtVjixxjbdJ32EWpAEJvw=s1600-v0"/> */} 
+                    <a href="https://drive.google.com/file/d/1o1xDA2fs-iqofkXrt3xz5SYbXUbFh-nk/view?usp=sharing" target="_blank" rel="noreferrer">
+                        <img className="project-video" src={flying} alt="Green Screen Video"></img>
+                    </a>
                     <div>
                         Using a green screen and <b>DaVinci Resolve, </b>
                         {descriptions['gs-description-1']}
@@ -141,7 +147,10 @@ const Comedy = () => {
                 </div>
                 <div className="projects-box">
                     <div className="projects-description">Modeling & Animation - <b>PORTFOLIO</b></div>
-                    <video controls className="project-video" src="https://drive.google.com/uc?id=11mtFjyZfdj2j_EKnI3rFsLQ80woCHfeZ"/>
+                    { /* BROKEN: <video controls className="project-video" src="https://drive.google.com/uc?id=11mtFjyZfdj2j_EKnI3rFsLQ80woCHfeZ"/> */ }
+                    <a href="https://drive.google.com/file/d/11mtFjyZfdj2j_EKnI3rFsLQ80woCHfeZ/view?usp=sharing" target="_blank" rel="noreferrer">
+                        <img className="project-video" src={scorpion} alt="VFX Portfolio"></img>
+                    </a>
                     <div>
                         Using <b>Autodesk Maya</b> and <b>Houdini</b>, 
                         {descriptions["vfx-description-1"]}
@@ -155,7 +164,7 @@ const Comedy = () => {
                 <div className="projects-box">
                     <div className="projects-description">Scene Strip & Overlay - <b>HUNGER GAMES</b></div>
                     <a href="https://drive.google.com/file/d/1mVi94brElREKnQvmUXzLc427SkwU0wzk/view?usp=drive_link" target="_blank" rel="noreferrer">
-                        <img className="project-video" src={hungerShot} alt="Unable to load"></img>
+                        <img className="project-video" src={hungerShot} alt="Hunger Games Audio Project"></img>
                     </a>
                     <div>(Click to watch the final product)</div>
                     <br/>

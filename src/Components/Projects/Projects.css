@@ -99,6 +99,7 @@ h2 {
 
 .project-video {
     width: 75%;
+    height: auto;
     padding: 10px;
 }
 
