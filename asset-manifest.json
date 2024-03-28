@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nat/static/css/main.bbf25f78.css",
-    "main.js": "/nat/static/js/main.2b2692d1.js",
+    "main.css": "/nat/static/css/main.80b09066.css",
+    "main.js": "/nat/static/js/main.83fcde55.js",
     "static/js/787.2ab5ba4a.chunk.js": "/nat/static/js/787.2ab5ba4a.chunk.js",
     "static/media/backer.jpeg": "/nat/static/media/backer.f32185aba1502bd4bc41.jpeg",
     "static/media/DOG3_selfie.jpeg": "/nat/static/media/DOG3_selfie.081e3d6a993c7eb14eea.jpeg",
@@ -18,12 +18,12 @@
     "static/media/dancers.jpg": "/nat/static/media/dancers.b735f33e161142d702a8.jpg",
     "static/media/scorpion-rig.png": "/nat/static/media/scorpion-rig.9bf9db49c19448084ecf.png",
     "index.html": "/nat/index.html",
-    "main.bbf25f78.css.map": "/nat/static/css/main.bbf25f78.css.map",
-    "main.2b2692d1.js.map": "/nat/static/js/main.2b2692d1.js.map",
+    "main.80b09066.css.map": "/nat/static/css/main.80b09066.css.map",
+    "main.83fcde55.js.map": "/nat/static/js/main.83fcde55.js.map",
     "787.2ab5ba4a.chunk.js.map": "/nat/static/js/787.2ab5ba4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbf25f78.css",
-    "static/js/main.2b2692d1.js"
+    "static/css/main.80b09066.css",
+    "static/js/main.83fcde55.js"
   ]
 }
