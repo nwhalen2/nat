@@ -107,8 +107,7 @@ h2 {
 .project-video-thumbnail {
     width: 75%;
 }
-
-.play-btn-outside {
+.play-btn {
     position: absolute;
     cursor: pointer;
     font-size: 50px;
@@ -123,10 +122,11 @@ h2 {
     background-color: #59d5e8;
     color: black;
 }
-.play-btn-outside:hover {
+.play-btn:hover {
     opacity: 80%;
     background-color: #01b7d3;
 }
+
 @media (orientation: portrait) {
     .dog3photos {
         max-height: 120px;
